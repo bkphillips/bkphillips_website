@@ -2,7 +2,7 @@ import * as THREE from "three";
 
 /** The site's colours, read from the CSS variables so 3D matches the theme. */
 export type Palette = Record<
-  "paper" | "surface" | "ink" | "muted" | "line" | "accent" | "signal",
+  "paper" | "surface" | "ink" | "muted" | "line" | "accent" | "signal" | "alert",
   THREE.Color
 >;
 
@@ -17,6 +17,7 @@ export function readPalette(): Palette {
     line: get("--line"),
     accent: get("--accent"),
     signal: get("--signal"),
+    alert: get("--alert"),
   };
 }
 

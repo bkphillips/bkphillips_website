@@ -24,6 +24,7 @@
   "devDependencies": {
     "@tailwindcss/turbopack": "4.3.3",
     "@types/d3-array": "^3.2.2",
+    "@types/d3-geo": "^3.1.1",
     "@types/d3-hierarchy": "^3.1.7",
     "@types/d3-scale": "^4.0.9",
     "@types/d3-shape": "^3.2.0",
@@ -32,10 +33,16 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@types/three": "^0.187.0",
+    "@types/topojson-client": "^3.1.5",
+    "d3-geo": "^3.1.2",
     "eslint": "^9",
     "eslint-config-next": "16.4.6",
+    "i18n-iso-countries": "^7.14.0",
     "tailwindcss": "4.3.3",
-    "typescript": "^5"
+    "topojson-client": "^3.1.0",
+    "typescript": "^5",
+    "us-atlas": "^3.0.1",
+    "world-atlas": "^2.0.2"
   },
   "engines": {
     "node": ">=20.9"

@@ -19,6 +19,7 @@ Then open http://localhost:3000.
 | `src/content/` | All site copy: contact details, projects, experience, publications |
 | `src/app/` | Pages: home, `/about`, `/work/inflection`, `/work/org-health` |
 | `src/components/sculpture/` | The 3D "regime terrain" on the home page (three.js). Its data is `public/data/terrain.json`; rebuild it with `npx tsx analysis/build_terrain.ts` |
+| `src/components/story/`, `src/content/story.ts` | The About page scroll story: one set of dots that forms a globe, an epidemic curve, a US population map and an org structure. Its data is `public/data/story.json`; rebuild it with `npx tsx analysis/build_story.ts` |
 | `src/components/hero-chart.tsx` | The live change point chart on the home page |
 | `src/lib/changepoint.ts` | PELT change point detection (home page chart) |
 | `src/components/inflection/`, `src/lib/inflection/` | The Inflection tool |

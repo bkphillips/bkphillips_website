@@ -12,6 +12,7 @@
   --accent: #1f5c50;
   --accent-soft: #dde8e2;
   --signal: #bd5b27;
+  --alert: #b3261e;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -26,6 +27,7 @@
     --accent: #86c9b7;
     --accent-soft: #1c2925;
     --signal: #e8935f;
+    --alert: #f26b5e;
   }
 }
 
@@ -40,6 +42,7 @@
   --accent: #86c9b7;
   --accent-soft: #1c2925;
   --signal: #e8935f;
+  --alert: #f26b5e;
 }
 
 @theme inline {
@@ -52,6 +55,7 @@
   --color-accent: var(--accent);
   --color-accent-soft: var(--accent-soft);
   --color-signal: var(--signal);
+  --color-alert: var(--alert);
   --font-serif: var(--font-newsreader), "Iowan Old Style", Georgia, serif;
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
   --font-mono: var(--font-plex-mono), ui-monospace, "SF Mono", monospace;
