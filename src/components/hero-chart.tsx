@@ -73,7 +73,7 @@ export function HeroChart() {
     <figure className="rounded-2xl border border-line bg-surface">
       <figcaption className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1 border-b border-line px-5 py-3.5 sm:px-6">
         <span className="eyebrow">
-          Fig. 1 · Change point detection, running live
+          Fig. 2 · Change point detection, running live
         </span>
         <span className="font-mono text-xs text-muted" aria-live="polite">
           {hover !== null && hoverSeg !== null && hoverSeg >= 0 ? (
