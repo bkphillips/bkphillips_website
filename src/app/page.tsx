@@ -1,50 +1,36 @@
 import Link from "next/link";
-import { HeroChart } from "@/components/hero-chart";
-import { TerrainBand } from "@/components/sculpture/terrain-band";
+import { TerrainBackdrop } from "@/components/sculpture/terrain-band";
 import { ProjectArt } from "@/components/project-art";
 import { experience } from "@/content/experience";
 import { projects } from "@/content/projects";
-import { publications } from "@/content/publications";
 import { site } from "@/content/site";
-
-const facts = [
-  {
-    value: "~95%",
-    label:
-      "fewer data errors after building a master data system for M&A at Uber",
-  },
-  {
-    value: "4–6 wks",
-    label:
-      "advance warning of COVID-19 surges from a forecasting model at Kaiser Permanente",
-  },
-  {
-    value: "300K",
-    label: "new enrollments supported by product analytics at Amazon Care",
-  },
-  {
-    value: String(publications.length),
-    label: "peer-reviewed publications, five in The Lancet",
-  },
-];
 
 export default function Home() {
   return (
     <>
-      <div className="mx-auto max-w-[1120px] px-5 sm:px-8">
-        {/* Hero */}
-        <section className="pt-16 pb-4 sm:pt-24 sm:pb-6">
+      {/* Hero: the terrain fills the upper part and the text sits at the lower
+          left. The text wrapper lets the pointer through its empty areas so
+          the terrain behind stays clickable. */}
+      <section className="relative overflow-hidden">
+        <TerrainBackdrop />
+        <div className="pointer-events-none relative z-10 mx-auto flex min-h-[calc(100svh-4rem)] max-w-[1120px] flex-col justify-end px-5 pt-[40svh] pb-10 sm:px-8 lg:pt-24 lg:pb-7 [&>*]:pointer-events-auto">
+          {/* A soft patch of the page colour behind the text, so ridges that
+              reach this far never cut through the words. */}
+          <div
+            aria-hidden="true"
+            className="!pointer-events-none absolute -inset-x-6 top-[34svh] bottom-0 -z-10 bg-[radial-gradient(ellipse_85%_115%_at_28%_65%,var(--paper)_58%,transparent_100%)] lg:top-[36%] lg:right-[44%]"
+          />
           <p className="eyebrow rise">
             {site.role} · {site.location}
           </p>
           <h1
-            className="display rise mt-6 max-w-[15ch] text-[clamp(2.7rem,7.2vw,5.4rem)]"
+            className="display rise mt-5 max-w-[16ch] text-[clamp(2.1rem,4.4vw,3.5rem)]"
             style={{ "--i": 1 } as React.CSSProperties}
           >
             I build data tools that explain <em>why</em> the numbers moved.
           </h1>
           <p
-            className="prose-body rise mt-7 max-w-[58ch] text-[1.14rem]"
+            className="prose-body rise mt-5 max-w-[46ch] text-[1rem]"
             style={{ "--i": 2 } as React.CSSProperties}
           >
             I&rsquo;m a data scientist at Uber working on people analytics and
@@ -55,7 +41,7 @@ export default function Home() {
             products.
           </p>
           <div
-            className="rise mt-9 flex flex-wrap gap-3"
+            className="rise mt-7 flex flex-wrap gap-3"
             style={{ "--i": 3 } as React.CSSProperties}
           >
             <Link
@@ -71,58 +57,22 @@ export default function Home() {
               About me
             </Link>
           </div>
-        </section>
-      </div>
+        </div>
+        {/* Cards for the terrain's change points are drawn here, above the text. */}
+        <div
+          id="terrain-cards"
+          className="pointer-events-none absolute inset-0 z-20"
+        />
+        {/* The story for the highlighted change point is docked at the lower
+            right, below the terrain, in line with the page's right edge. */}
+        <div className="pointer-events-none absolute inset-x-0 bottom-8 z-20 mx-auto max-w-[1120px] px-5 sm:px-8 lg:bottom-7">
+          <div id="terrain-story" className="ml-auto w-[21rem]" />
+        </div>
+      </section>
 
-      {/* Sculpture: real market series as a landscape, full width */}
-      <div className="rise" style={{ "--i": 4 } as React.CSSProperties}>
-        <TerrainBand />
-      </div>
-
-      <div className="mx-auto mt-14 max-w-[1120px] px-5 sm:mt-20 sm:px-8">
-        {/* Facts */}
-        <section className="grid grid-cols-2 border-y border-line lg:grid-cols-4">
-          {facts.map((f, i) => (
-            <div
-              key={f.value}
-              className={`py-8 pr-6 ${i % 2 ? "pl-6" : ""} ${
-                i > 1 ? "border-t border-line lg:border-t-0" : ""
-              } ${i % 2 ? "border-l border-line" : ""} ${
-                i === 2 ? "lg:border-l lg:pl-6" : ""
-              }`}
-            >
-              <p className="font-serif text-[1.9rem] leading-none tracking-tight whitespace-nowrap sm:text-[2.4rem]">
-                {f.value}
-              </p>
-              <p className="mt-3 text-sm leading-relaxed text-muted">
-                {f.label}
-              </p>
-            </div>
-          ))}
-        </section>
-
-        {/* Detection demo */}
-        <section className="pt-20 sm:pt-28">
-          <div className="flex flex-wrap items-end justify-between gap-4">
-            <div>
-              <p className="eyebrow">Under the hood</p>
-              <h2 className="display mt-4 text-[clamp(2rem,4.4vw,3.1rem)]">
-                Watch a model find the shifts
-              </h2>
-            </div>
-            <p className="max-w-[44ch] text-sm leading-relaxed text-muted">
-              Each series below is generated with hidden level shifts, then a
-              PELT change point model finds them, all in your browser. Drag the
-              slider to change how much evidence a shift needs.
-            </p>
-          </div>
-          <div className="mt-10">
-            <HeroChart />
-          </div>
-        </section>
-
+      <div className="mx-auto max-w-[1120px] px-5 sm:px-8">
         {/* Work */}
-        <section id="work" className="py-20 sm:py-28">
+        <section id="work" className="border-t border-line py-20 sm:py-28">
           <div className="flex flex-wrap items-end justify-between gap-4">
             <div>
               <p className="eyebrow">Selected work</p>
@@ -131,7 +81,7 @@ export default function Home() {
               </h2>
             </div>
             <p className="max-w-[40ch] text-sm leading-relaxed text-muted">
-              Two interactive tools, built in the open and both in beta. Each
+              Four interactive tools, built in the open and all in beta. Each
               page explains the design.
             </p>
           </div>

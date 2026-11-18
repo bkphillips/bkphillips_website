@@ -10,6 +10,16 @@ const nextConfig: NextConfig = {
     "/api/org/data": ["./src/data/org.json"],
     "/api/org/chat": ["./src/data/org.json"],
   },
+  // The project page used to live at /work/org-health; keep old links working.
+  redirects() {
+    return [
+      {
+        source: "/work/org-health",
+        destination: "/work/org-explorer",
+        permanent: true,
+      },
+    ];
+  },
   turbopack: {
     rules: {
       "*.css": {

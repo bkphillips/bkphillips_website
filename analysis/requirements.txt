@@ -1,2 +1,4 @@
 ruptures
 numpy
+pandas
+scikit-learn

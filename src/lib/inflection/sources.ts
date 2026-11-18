@@ -33,14 +33,19 @@ async function get(url: string, userAgent = USER_AGENT) {
   let res: Response;
   try {
     res = await fetch(url, {
-      headers: { "User-Agent": userAgent, Accept: "application/json,text/csv,*/*" },
+      headers: {
+        "User-Agent": userAgent,
+        Accept: "application/json,text/csv,*/*",
+      },
       signal: AbortSignal.timeout(20_000),
     });
   } catch {
     throw new SeriesError("The data provider did not respond.", 502);
   }
-  if (res.status === 404) throw new SeriesError("No data found for that name.", 404);
-  if (!res.ok) throw new SeriesError("The data provider returned an error.", 502);
+  if (res.status === 404)
+    throw new SeriesError("No data found for that name.", 404);
+  if (!res.ok)
+    throw new SeriesError("The data provider returned an error.", 502);
   return res;
 }
 
@@ -53,13 +58,16 @@ async function yahoo(symbol: string): Promise<SeriesData> {
   const body = await res.json();
   const result = body?.chart?.result?.[0];
   const stamps: number[] | undefined = result?.timestamp;
-  const closes: (number | null)[] | undefined = result?.indicators?.quote?.[0]?.close;
-  if (!stamps || !closes) throw new SeriesError("No data found for that ticker.", 404);
+  const closes: (number | null)[] | undefined =
+    result?.indicators?.quote?.[0]?.close;
+  if (!stamps || !closes)
+    throw new SeriesError("No data found for that ticker.", 404);
 
   const points: Point[] = [];
   for (let i = 0; i < stamps.length; i++) {
     const v = closes[i];
-    if (typeof v === "number" && Number.isFinite(v)) points.push([stamps[i] * 1000, v]);
+    if (typeof v === "number" && Number.isFinite(v))
+      points.push([stamps[i] * 1000, v]);
   }
   const meta = result.meta ?? {};
   return {
@@ -116,7 +124,8 @@ async function owidCovidUsa(): Promise<SeriesData> {
     if (cols[1] !== "USA") continue;
     const t = Date.parse(`${cols[2]}T00:00:00Z`);
     const v = Number(cols[3]);
-    if (Number.isFinite(t) && cols[3] !== "" && Number.isFinite(v)) points.push([t, v]);
+    if (Number.isFinite(t) && cols[3] !== "" && Number.isFinite(v))
+      points.push([t, v]);
   }
   points.sort((a, b) => a[0] - b[0]);
   // Reporting stopped in 2023; drop the long tail of zeros that follows.
@@ -128,7 +137,8 @@ async function owidCovidUsa(): Promise<SeriesData> {
     label: "COVID-19 weekly confirmed cases, United States",
     unit: "cases per week",
     sourceName: "Our World in Data (WHO)",
-    sourceUrl: "https://ourworldindata.org/grapher/weekly-covid-cases?country=~USA",
+    sourceUrl:
+      "https://ourworldindata.org/grapher/weekly-covid-cases?country=~USA",
     points: points.slice(0, last),
   };
 }
@@ -138,7 +148,10 @@ async function owidCovidUsa(): Promise<SeriesData> {
  * Returns null when the provider has no such series (errors thrown inside a
  * cached function lose their type, so "not found" is a value, not an exception).
  */
-export async function loadSeries(source: SourceId, id: string): Promise<SeriesData | null> {
+export async function loadSeries(
+  source: SourceId,
+  id: string,
+): Promise<SeriesData | null> {
   "use cache";
   cacheLife("hours");
 

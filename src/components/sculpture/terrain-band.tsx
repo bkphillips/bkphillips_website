@@ -5,11 +5,18 @@ import dynamic from "next/dynamic";
 // three.js is loaded only in the browser and only after the page's text is up.
 const Terrain = dynamic(() => import("@/components/sculpture/terrain"), { ssr: false });
 
-/** Full-width band for the landing page's 3D sculpture. Reserves its height while loading. */
-export function TerrainBand() {
+/**
+ * The landing page's 3D sculpture as a backdrop for the hero. It fills the
+ * hero on wide screens and the upper part of it on phones; the hero's text
+ * sits below and to the left.
+ */
+export function TerrainBackdrop() {
   return (
-    <div className="mx-auto min-h-[calc(66.7vw+1.5rem)] w-full max-w-[1500px] sm:min-h-[calc(56.25vw+1.5rem)] lg:min-h-[min(calc(42.85vw+1.5rem),664px)]">
-      <Terrain />
+    <div
+      className="rise absolute inset-x-0 top-0 h-[52svh] lg:inset-0 lg:h-auto"
+      style={{ "--i": 4 } as React.CSSProperties}
+    >
+      <Terrain backdrop />
     </div>
   );
 }

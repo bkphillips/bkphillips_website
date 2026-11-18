@@ -5,42 +5,70 @@ import { getProject, projects, type Project } from "@/content/projects";
 export function ProjectPage({
   slug,
   children,
+  compact = false,
 }: {
   slug: Project["slug"];
   /** The live tool, when the project has one. Replaces the illustration. */
   children?: React.ReactNode;
+  /** A one-line header, for tools that need the height to fit on one screen. */
+  compact?: boolean;
 }) {
   const p = getProject(slug);
-  const other = projects.find((x) => x.slug !== slug)!;
+  const other =
+    projects[
+      (projects.findIndex((x) => x.slug === slug) + 1) % projects.length
+    ];
 
   return (
     <div className="mx-auto max-w-[1120px] px-5 sm:px-8">
-      <section className="pt-14 pb-14 sm:pt-20 sm:pb-16">
-        <Link href="/#work" className="link rise text-sm text-muted">
-          ← All work
-        </Link>
-        <div
-          className="rise mt-10 flex flex-wrap items-center gap-3"
-          style={{ "--i": 1 } as React.CSSProperties}
-        >
-          <p className="eyebrow">{p.kicker}</p>
-          <span className="rounded-full bg-accent-soft px-2.5 py-1 font-mono text-[0.68rem] tracking-wide text-accent">
-            {p.status}
-          </span>
-        </div>
-        <h1
-          className="display rise mt-5 text-[clamp(2.6rem,6.4vw,4.8rem)]"
-          style={{ "--i": 2 } as React.CSSProperties}
-        >
-          {p.name}
-        </h1>
-        <p
-          className="rise mt-5 max-w-[30ch] font-serif text-[clamp(1.35rem,2.6vw,1.8rem)] leading-snug tracking-tight text-muted"
-          style={{ "--i": 3 } as React.CSSProperties}
-        >
-          {p.tagline}
-        </p>
-      </section>
+      {compact ? (
+        <section className="pt-6 pb-5">
+          <Link href="/#work" className="link rise text-sm text-muted">
+            ← All work
+          </Link>
+          <div
+            className="rise mt-3 flex flex-wrap items-baseline gap-x-4 gap-y-1"
+            style={{ "--i": 1 } as React.CSSProperties}
+          >
+            <h1 className="display text-[clamp(1.9rem,3.4vw,2.5rem)]">
+              {p.name}
+            </h1>
+            <span className="-translate-y-1 rounded-full bg-accent-soft px-2.5 py-1 font-mono text-[0.68rem] tracking-wide text-accent">
+              {p.status}
+            </span>
+            <p className="font-serif text-[1.15rem] tracking-tight text-muted">
+              {p.tagline}
+            </p>
+          </div>
+        </section>
+      ) : (
+        <section className="pt-14 pb-14 sm:pt-20 sm:pb-16">
+          <Link href="/#work" className="link rise text-sm text-muted">
+            ← All work
+          </Link>
+          <div
+            className="rise mt-10 flex flex-wrap items-center gap-3"
+            style={{ "--i": 1 } as React.CSSProperties}
+          >
+            <p className="eyebrow">{p.kicker}</p>
+            <span className="rounded-full bg-accent-soft px-2.5 py-1 font-mono text-[0.68rem] tracking-wide text-accent">
+              {p.status}
+            </span>
+          </div>
+          <h1
+            className="display rise mt-5 text-[clamp(2.6rem,6.4vw,4.8rem)]"
+            style={{ "--i": 2 } as React.CSSProperties}
+          >
+            {p.name}
+          </h1>
+          <p
+            className="rise mt-5 max-w-[30ch] font-serif text-[clamp(1.35rem,2.6vw,1.8rem)] leading-snug tracking-tight text-muted"
+            style={{ "--i": 3 } as React.CSSProperties}
+          >
+            {p.tagline}
+          </p>
+        </section>
+      )}
 
       {children ? (
         <section className="rise" style={{ "--i": 4 } as React.CSSProperties}>
@@ -112,6 +140,25 @@ export function ProjectPage({
               ))}
             </ul>
           </div>
+          {p.links && (
+            <div>
+              <p className="eyebrow">Links</p>
+              <ul className="mt-4 space-y-1.5 text-[0.95rem]">
+                {p.links.map((l) => (
+                  <li key={l.href}>
+                    <a
+                      href={l.href}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="link text-muted"
+                    >
+                      {l.label} ↗
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
         </aside>
       </section>
 

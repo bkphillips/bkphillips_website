@@ -47,3 +47,9 @@ __pycache__/
 
 # keep the example env file
 !.env.example
+
+# article excerpts used to ground AI summaries: not for publication
+*.private.json
+
+# raw listings data: not for publication
+/analysis/data/

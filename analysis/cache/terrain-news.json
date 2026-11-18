@@ -1,0 +1,1334 @@
+{
+ "^GSPC|2022-09-11|2022-09-27": [
+  {
+   "t": "Asia-Pacific markets poised to open lower after S&P 500 closes near two-year lows",
+   "s": "CNBC",
+   "u": "https://www.cnbc.com/2022/09/28/asia-markets-bank-of-japan-australia-retail-sales-currencies-oil.html",
+   "d": "2022-09-27"
+  },
+  {
+   "t": "El S&P 500 termina el martes a la baja después de marcar un nuevo mínimo en el mercado bajista",
+   "s": "CNBC",
+   "u": "https://www.cnbc.com/2022/09/27/el-sp-500-cae-despus-de-marcar-un-nuevo-mnimo-en-el-mercado-bajista.html",
+   "d": "2022-09-27"
+  }
+ ],
+ "^GSPC|2025-02-23|2025-03-11": [
+  {
+   "t": "S&P 500 Drops to Record Low As Trump Escalates His Trade War",
+   "s": "TIME",
+   "u": "https://time.com/7266926/stock-market-drop-trump-trade-war/",
+   "d": "2025-03-11"
+  },
+  {
+   "t": "S&P 500 On Cusp Of 10% Correction -- As Trump Brandishes Another Set Of Tariffs",
+   "s": "Forbes",
+   "u": "https://www.forbes.com/sites/dereksaul/2025/03/11/sp-500-on-cusp-of-10-correction-as-trump-brandishes-another-set-of-tariffs/",
+   "d": "2025-03-11"
+  }
+ ],
+ "^GSPC|2025-06-18|2025-07-04": [
+  {
+   "t": "BofA Warns S&P 500 Could Trigger A Sell-Off If It Breaks 6,300",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/bofa-warns-p-500-could-213523595.html",
+   "d": "2025-07-04"
+  },
+  {
+   "t": "The S&P 500 Is Around Its All-Time High. Is It Too Late to Invest in the Index?",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/p-500-around-time-high-092200716.html?guccounter=1&guce_referrer=aHR0cDovL2ZpbmFuY2UueWFob28uY29tL3Jzcy90b3BzdG9yaWVz&guce_referrer_sig=AQAAAER099kC0ARrRqLoJoUtx1FkmRlEw2W9jsMIeWWwv7k1VssnANVPGdhne6rCNK5xSVA3JEuBAoEvVi0cZZ0gXHZRQMh2MInb_Tmy30OehWTFxfEmzfZugjGPfMbH4VdGswkQweqx29omMPIESK-lejTiaudo_K3ZO_-x7Sisx7oF",
+   "d": "2025-07-04"
+  }
+ ],
+ "GC=F|2022-11-19|2022-12-05": [
+  {
+   "t": "Gold prices inch higher on softer dollar",
+   "s": "CNBC",
+   "u": "https://www.cnbc.com/2022/12/05/gold-markets-us-dollar-interest-rates-hikes-fed.html",
+   "d": "2022-12-05"
+  },
+  {
+   "t": "Gold Price To Hit New Record By End Of 2027, Expert Forecasts",
+   "s": "Forbes",
+   "u": "https://www.forbes.com/sites/simonconstable/2022/11/29/gold-price-to-hit-new-record-by-end-of-2027-expert-forecasts/",
+   "d": "2022-11-29"
+  }
+ ],
+ "GC=F|2024-02-22|2024-03-09": [
+  {
+   "t": "Stock Market Today: Dow Set to Open Up Ahead of Powell's Testimony; CrowdStrike, Nordstrom, and More Movers; Crypto News; Gold Price",
+   "s": "Barrons",
+   "u": "https://www.barrons.com/livecoverage/stock-market-today-030624",
+   "d": "2024-03-06"
+  },
+  {
+   "t": "Gold price surges to record high",
+   "s": "Financial Times News",
+   "u": "https://www.ft.com/content/72ae7a4a-83fe-4e55-8265-4278204c1d5d",
+   "d": "2024-03-05"
+  }
+ ],
+ "GC=F|2026-01-11|2026-01-27": [
+  {
+   "t": "The Debasement Trade Is Driving Gold Prices to Dizzying Heights",
+   "s": "Bloomberg Business",
+   "u": "https://www.bloomberg.com/news/newsletters/2026-01-26/the-debasement-trade-is-driving-gold-prices-to-dizzying-heights",
+   "d": "2026-01-27"
+  },
+  {
+   "t": "Stock Futures Lower as Gold Price Tops $5,000 for First Time",
+   "s": "The Wall Street Journal",
+   "u": "https://www.wsj.com/finance/currencies/global-markets-mixed-ahead-of-busy-earnings-week-8eb343ee",
+   "d": "2026-01-26"
+  }
+ ],
+ "NVDA|2022-09-11|2022-09-27": [
+  {
+   "t": "Stocks turn lower, chip stocks Nvidia and AMD dip",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/video/stocks-turn-lower-chip-stocks-141347473.html",
+   "d": "2022-09-22"
+  },
+  {
+   "t": "NVIDIA Corp. stock outperforms competitors on strong trading day",
+   "s": "MarketWatch",
+   "u": "https://www.marketwatch.com/story/nvidia-corp-stock-outperforms-competitors-on-strong-trading-day-01664313180-f817a15a119c",
+   "d": "2022-09-27"
+  }
+ ],
+ "NVDA|2023-09-02|2023-09-18": [
+  {
+   "t": "Nvidia and TSMC shares rise ahead of ARM IPO, HP stock falls on Berkshire Hathaway sale, and more movers",
+   "s": "MarketWatch",
+   "u": "https://www.marketwatch.com/story/nvidia-and-tsmc-shares-rise-ahead-of-arm-ipo-hp-stock-falls-on-berkshire-hathaway-sale-and-more-movers-cf364a52",
+   "d": "2023-09-14"
+  },
+  {
+   "t": "After Nvidia's 200% rally this year, investors look to the Arm IPO  --  but the two are very different",
+   "s": "CNBC",
+   "u": "https://www.cnbc.com/2023/09/12/arm-ipo-ai-play-in-focus-after-huge-nvidia-rally-.html",
+   "d": "2023-09-12"
+  }
+ ],
+ "NVDA|2024-07-08|2024-07-24": [
+  {
+   "t": "Nvidia Recently Completed a 10-for-1 Stock Split: Here Are the 3 Likeliest Candidates to Become Wall Street's Next Stock-Split Stocks",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/nvidia-recently-completed-10-1-090600900.html",
+   "d": "2024-07-19"
+  },
+  {
+   "t": "The CEO of Nvidia Just Sold 700,000 Shares of His Company's Stock. Here's What Investors Need to Know.",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/ceo-nvidia-just-sold-700-101500926.html",
+   "d": "2024-07-18"
+  }
+ ],
+ "^IXIC|2022-09-11|2022-09-27": [
+  {
+   "t": "Atlis Motor Vehicles Skyrockets in Nasdaq Debut",
+   "s": "MarketWatch",
+   "u": "https://www.marketwatch.com/story/atlis-motor-vehicles-skyrockets-in-nasdaq-debut-271664319226",
+   "d": "2022-09-27"
+  },
+  {
+   "t": "Nasdaq Inc. stock rises Tuesday, outperforms market",
+   "s": "MarketWatch",
+   "u": "https://www.marketwatch.com/story/nasdaq-inc-stock-rises-tuesday-outperforms-market-01664313008-ce9aac197242",
+   "d": "2022-09-27"
+  }
+ ],
+ "^IXIC|2025-02-23|2025-03-11": [
+  {
+   "t": "Nasdaq Sell-Off: 3 Top Dividend Stocks I Plan to Buy if the Nasdaq Keeps Falling",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/nasdaq-sell-off-3-top-173724730.html",
+   "d": "2025-03-11"
+  },
+  {
+   "t": "Bitcoin, Nasdaq News: BTC's 200-Day Average Support Under Threat as Nasdaq Triggers 'Double Top'",
+   "s": "CoinDesk",
+   "u": "https://www.coindesk.com/markets/2025/03/04/bitcoin-s-200-day-average-support-under-threat-as-nasdaq-triggers-double-top",
+   "d": "2025-03-04"
+  }
+ ],
+ "^IXIC|2025-09-29|2025-10-15": [
+  {
+   "t": "Stock market today: Dow, S&P 500, Nasdaq futures inch up as Wall Street weighs earnings, renewed US-China trade tensions",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-futures-inch-up-as-wall-street-weighs-earnings-renewed-us-china-trade-tensions-232657656.html",
+   "d": "2025-10-15"
+  },
+  {
+   "t": "Nasdaq, S&P 500 rise amid US-China trade tensions",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/video/nasdaq-p-500-rise-amid-200846181.html",
+   "d": "2025-10-15"
+  }
+ ],
+ "^DJI|2022-10-15|2022-10-31": [
+  {
+   "t": "10 Best Dow Jones Dividend Stocks that Hedge Funds Love",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/10-best-dow-jones-dividend-184726849.html",
+   "d": "2022-10-26"
+  },
+  {
+   "t": "Dow Jones Futures Rise Ahead Of Key Economic Data; Tesla Skids After Cutting China Prices",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/m/94b3c5d0-09ff-37e4-b64b-3a6655a8d023/dow-jones-futures-rise-ahead.html?.tsrc=rss",
+   "d": "2022-10-24"
+  }
+ ],
+ "^DJI|2023-11-22|2023-12-08": [
+  {
+   "t": "Procter & Gamble, Dow share losses contribute to Dow's nearly 175-point fall",
+   "s": "MarketWatch",
+   "u": "https://www.marketwatch.com/data-news/procter-gamble-dow-share-losses-contribute-to-dow-s-nearly-175-point-fall-697fc528-cb2383b7fde5",
+   "d": "2023-12-05"
+  },
+  {
+   "t": "Dow Jones up 360 points, heading for best month since October 2022",
+   "s": "MarketWatch",
+   "u": "https://www.marketwatch.com/story/dow-jones-up-360-points-heading-for-best-month-since-october-2022-a8a6632e",
+   "d": "2023-11-30"
+  }
+ ],
+ "^DJI|2025-02-23|2025-03-11": [
+  {
+   "t": "Stock market today: Dow Jones, S&P 500 and Nasdaq futures fall following S&P's worst week since September",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/live/stock-market-today-dow-jones-sp-500-and-nasdaq-futures-fall-following-sps-worst-week-since-september-235414123.html",
+   "d": "2025-03-09"
+  },
+  {
+   "t": "Billionaire Bill Gates Owns $2.5 Billion of This Dow Jones Stock. Should You Buy It, Too?",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/billionaire-bill-gates-owns-2-095100805.html",
+   "d": "2025-03-08"
+  }
+ ],
+ "JPM|2022-10-04|2022-10-20": [
+  {
+   "t": "Dow Jones Reverses As JPMorgan, UnitedHealth Rally On Earnings; Retail Sales Miss",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/m/6eed2e4b-e35c-3136-a157-9445303cb5aa/dow-jones-reverses-as.html?.tsrc=rss",
+   "d": "2022-10-14"
+  },
+  {
+   "t": "Dow Jones Rises As JPMorgan, UnitedHealth Rally On Earnings; Retail Sales Miss",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/m/6eed2e4b-e35c-3136-a157-9445303cb5aa/dow-jones-rises-as-jpmorgan%2C.html?.tsrc=rss",
+   "d": "2022-10-14"
+  }
+ ],
+ "JPM|2023-12-03|2023-12-19": [
+  {
+   "t": "Investors might panic as inflation falls further -- here's the stock-market call of JPMorgan's resolute bear",
+   "s": "MarketWatch",
+   "u": "https://www.marketwatch.com/story/investors-might-panic-as-inflation-falls-further-heres-the-stock-market-call-of-jpmorgans-resolute-bear-e451172d",
+   "d": "2023-12-08"
+  },
+  {
+   "t": "Earnings Growth & Price Strength Make JPMorgan Chase & Co. (JPM) a Stock to Watch",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/earnings-growth-price-strength-jpmorgan-143003689.html",
+   "d": "2023-12-11"
+  }
+ ],
+ "JPM|2026-01-11|2026-01-27": [
+  {
+   "t": "Dow Drops Nearly 400 Points After JPMorgan's Earnings Flop",
+   "s": "Barrons",
+   "u": "https://www.barrons.com/livecoverage/stock-market-news-today-011326/card/dow-drops-nearly-400-points-after-jpmorgan-s-earnings-flop-Ynctlmzv2wC4Evski73h",
+   "d": "2026-01-15"
+  },
+  {
+   "t": "JPMorgan Sets Major US Bank Bond Sales in Motion After Earnings",
+   "s": "Bloomberg Business",
+   "u": "https://www.bloomberg.com/news/articles/2026-01-14/jpmorgan-sets-major-us-bank-bond-sales-in-motion-after-earnings",
+   "d": "2026-01-14"
+  }
+ ],
+ "WMT|2022-05-08|2022-05-24": [
+  {
+   "t": "Walmart earnings preview: Walmart's exposure to lower-income consumers gives analysts pause",
+   "s": "MarketWatch",
+   "u": "https://www.marketwatch.com/story/walmart-earnings-preview-walmarts-exposure-to-lower-income-consumers-gives-analysts-pause-11652449526",
+   "d": "2022-05-16"
+  },
+  {
+   "t": "Santoli: Target, Walmart's quarterly earnings drag shares, but there's a bright spot buried in the results",
+   "s": "CNBC",
+   "u": "https://www.cnbc.com/2022/05/18/santoli-target-walmarts-quarterly-earnings-drag-shares-but-theres-a-bright-spot-buried-in-the-results.html",
+   "d": "2022-05-18"
+  }
+ ],
+ "WMT|2024-07-31|2024-08-16": [
+  {
+   "t": "Walmart boosts sales outlook as shares surge to record high",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/video/walmart-boosts-sales-outlook-shares-082513957.html",
+   "d": "2024-08-16"
+  },
+  {
+   "t": "Forbes Daily: Walmart's Record Results Lift Investors' Spirits",
+   "s": "Forbes",
+   "u": "https://www.forbes.com/sites/daniellechemtob/2024/08/16/forbes-daily-walmarts-record-results-lift-investors-spirits/",
+   "d": "2024-08-16"
+  }
+ ],
+ "WMT|2026-06-09|2026-06-25": [
+  {
+   "t": "Constellation Energy Inks a Nuclear Power Deal with Walmart. Here's What Investors Need to Know.",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/energy/articles/constellation-energy-inks-nuclear-power-230624631.html",
+   "d": "2026-06-23"
+  },
+  {
+   "t": "The Number That Could Test Walmart Stock",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/markets/stocks/articles/number-could-test-walmart-stock-200045471.html",
+   "d": "2026-06-17"
+  }
+ ],
+ "SI=F|2022-06-11|2022-06-27": [
+  {
+   "t": "Silver Price Prediction - Prices Rise Despite a Dip in Gold",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/silver-price-prediction-prices-rise-215919676.html",
+   "d": "2022-06-22"
+  }
+ ],
+ "SI=F|2025-07-11|2025-07-27": [
+  {
+   "t": "Silver Prices Are Pushing Higher. How Should You Trade the Precious Metal Here?",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/silver-prices-pushing-higher-trade-141059130.html?guccounter=1&guce_referrer=aHR0cHM6Ly9maW5hbmNlLnlhaG9vLmNvbS9yc3MvdG9wc3Rvcmllcw&guce_referrer_sig=AQAAAGsC3Q9X13t3zXUVIz1-1ibtK_A7ms8TaIYIL52-a677OrOdguH0UauZkihRDz5BFrYKJxdAYkmGI4pblR2Rr2IK5h7B2VxzXCmdFSJNnbkzYFuNHKj62dwCZDw8o7Zl8xFkFS8UZQDQoFG0W099H4fDBAfZvBWCFCjj11baD3Ve",
+   "d": "2025-07-11"
+  }
+ ],
+ "SI=F|2025-12-30|2026-01-15": [
+  {
+   "t": "Gold And Silver Prices Smash New Records Amid Iran Protests, Fed Investigation",
+   "s": "Forbes",
+   "u": "https://www.forbes.com/sites/conormurray/2026/01/14/gold-and-silver-prices-smash-new-records-amid-iran-protests-fed-investigation/",
+   "d": "2026-01-14"
+  },
+  {
+   "t": "Silver Prices Surge Past $80 an Ounce",
+   "s": "The Wall Street Journal",
+   "u": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-01-06-2026/card/silver-prices-surge-past-80-an-ounce-s7uMpWJmfrulPMUAnPyI",
+   "d": "2026-01-06"
+  }
+ ],
+ "^FTSE|2024-03-15|2024-03-31": [
+  {
+   "t": "FTSE 100 Live 28 March: UK GDP, Nationwide House Price Index, Lloyd's of London results",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/ftse-100-live-28-march-063100645.html",
+   "d": "2024-03-28"
+  },
+  {
+   "t": "FTSE 100 miner says $15m of secret payments made by sacked boss",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/ftse-100-miner-says-15m-153506248.html",
+   "d": "2024-03-27"
+  }
+ ],
+ "^FTSE|2025-03-18|2025-04-03": [
+  {
+   "t": "FTSE 100 Live 02 April: Index seen lower ahead of US tariffs, food merger agreed",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/ftse-100-live-02-april-061010279.html",
+   "d": "2025-04-02"
+  },
+  {
+   "t": "FTSE 100 Live 01 April: Index seen higher after US rebound, Travis Perkins posts results",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/ftse-100-live-01-april-060844511.html",
+   "d": "2025-04-01"
+  }
+ ],
+ "^FTSE|2026-02-26|2026-03-14": [
+  {
+   "t": "FTSE 100 Live: Stocks and Pound Under Pressure as Oil Rise Extends",
+   "s": "Bloomberg Business",
+   "u": "https://www.bloomberg.com/news/live-blog/2026-03-12/ftse-100-bonds-oil-iran-war-trump-what-s-moving-uk-markets-right-now-markets-today",
+   "d": "2026-03-12"
+  },
+  {
+   "t": "FTSE 100 Live: Bonds Tumble on Volatile Energy Prices and Rate Bets",
+   "s": "Bloomberg Business",
+   "u": "https://www.bloomberg.com/news/live-blog/2026-03-11/ftse-100-bonds-iran-oil-trump-latest-news-what-s-moving-uk-markets-right-now-markets-today",
+   "d": "2026-03-11"
+  }
+ ],
+ "^N225|2023-04-29|2023-05-15": [
+  {
+   "t": "Samsung Plans Chip Development Facility in Japan: Nikkei",
+   "s": "Bloomberg Business",
+   "u": "https://www.bloomberg.com/news/articles/2023-05-14/samsung-plans-chip-development-facility-in-japan-nikkei",
+   "d": "2023-05-14"
+  },
+  {
+   "t": "UPDATE 1-Japan's SBI Holdings to take SBI Shinsei Bank private - Nikkei",
+   "s": "Reuters",
+   "u": "https://www.reuters.com/article/sbi-shinsei-bank-idUSL4N379132",
+   "d": "2023-05-12"
+  }
+ ],
+ "^N225|2025-02-23|2025-03-11": [
+  {
+   "t": "Japan's Nikkei leads Asia losses after U.S. pauses tariffs on some goods; China trade data in focus",
+   "s": "CNBC",
+   "u": "https://www.cnbc.com/2025/03/07/asia-markets-live-updates.html",
+   "d": "2025-03-07"
+  },
+  {
+   "t": "Japan's Nikkei slumps as tariff concerns, yen strength unsettle market",
+   "s": "Reuters",
+   "u": "https://www.reuters.com/markets/asia/japans-nikkei-slumps-tariff-concerns-yen-strength-unsettle-market-2025-03-04/",
+   "d": "2025-03-04"
+  }
+ ],
+ "^N225|2026-05-17|2026-06-02": [
+  {
+   "t": "Nissan unit scraps plan to make EV powertrains in UK, Nikkei says",
+   "s": "Reuters",
+   "u": "https://www.reuters.com/business/autos-transportation/nissan-unit-scraps-plan-make-ev-powertrains-uk-nikkei-says-2026-05-24/",
+   "d": "2026-06-02"
+  },
+  {
+   "t": "Japan's Nikkei tops 67,000 on AI boost; SoftBank becomes most valuable Japanese firm",
+   "s": "Reuters",
+   "u": "https://www.reuters.com/world/asia-pacific/japans-nikkei-tops-67000-first-time-ai-boost-softbank-becomes-japans-most-2026-06-01/",
+   "d": "2026-06-01"
+  }
+ ],
+ "GOOGL|2023-03-02|2023-03-18": [
+  {
+   "t": "Google Stock Jumps As Puts Artificial Intelligence Into Google Docs",
+   "s": "Forbes",
+   "u": "https://www.forbes.com/sites/qai/2023/03/15/google-stock-jumps-as-it-unveils-new-ai-powered-tools-for-workspace/",
+   "d": "2023-03-15"
+  },
+  {
+   "t": "Google ends enterprise sales of Google Glass, its augmented reality smartglasses",
+   "s": "CNBC",
+   "u": "https://www.cnbc.com/2023/03/15/google-discontinues-google-glass-enterprise-end-to-early-ar-project.html",
+   "d": "2023-03-15"
+  }
+ ],
+ "GOOGL|2025-03-07|2025-03-23": [
+  {
+   "t": "Alphabet Stock Has Lost Over $500 Billion in Market Cap. Is the Google Parent a Top AI Stock to Buy Now?",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/alphabet-stock-lost-over-500-111500574.html",
+   "d": "2025-03-17"
+  },
+  {
+   "t": "Alphabet stock falls after announcing $32B deal to buy Wiz",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/video/alphabet-stock-falls-announcing-32b-151100294.html",
+   "d": "2025-03-18"
+  }
+ ],
+ "GOOGL|2025-11-15|2025-12-01": [
+  {
+   "t": "Alphabet Stock Hits Record Peak After Report Meta Aims to Buy Google's TPU Chips",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/alphabet-stock-hits-record-peak-180017660.html",
+   "d": "2025-11-25"
+  },
+  {
+   "t": "Google stock rally makes Alphabet the Mag 7's best 2025 performer",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/video/google-stock-rally-makes-alphabet-160000035.html",
+   "d": "2025-11-25"
+  }
+ ],
+ "AAPL|2023-03-14|2023-03-30": [
+  {
+   "t": "Affirm Shares Plunge on Apple's Buy-Now-Pay-Later-Offering Launch",
+   "s": "MarketWatch",
+   "u": "https://www.marketwatch.com/story/affirm-shares-plunge-on-apple-s-buy-now-pay-later-offering-launch-61d5662b",
+   "d": "2023-03-28"
+  },
+  {
+   "t": "Affirm stock drops after Apple starts its BNPL rollout",
+   "s": "MarketWatch",
+   "u": "https://www.marketwatch.com/story/affirm-stock-drops-after-apple-starts-its-bnpl-rollout-cc01a1c4",
+   "d": "2023-03-28"
+  }
+ ],
+ "AAPL|2024-06-04|2024-06-20": [
+  {
+   "t": "Apple extends rally with a record-breaking stock market value",
+   "s": "Reuters",
+   "u": "https://www.reuters.com/technology/apple-extends-rally-with-record-breaking-stock-market-value-2024-06-17/",
+   "d": "2024-06-17"
+  },
+  {
+   "t": "Stocks Ease Ahead Of Wednesday's Key Events, Apple Jumps To Record Highs, Bitcoin Tumbles To $66,500: What's Driving Markets Tuesday?",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/stocks-ease-ahead-wednesdays-key-173541122.html",
+   "d": "2024-06-11"
+  }
+ ],
+ "AAPL|2025-03-07|2025-03-23": [
+  {
+   "t": "Apple stock rout shaves nearly $700 billion from market cap since record close",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/apple-stock-rout-shaves-nearly-700-billion-from-market-cap-since-record-close-170617877.html",
+   "d": "2025-03-18"
+  },
+  {
+   "t": "Apple iPhone 16 Sales Decline as KeyBanc Cuts Growth Outlook",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/apple-iphone-16-sales-decline-120339421.html",
+   "d": "2025-03-14"
+  }
+ ],
+ "^RUT|2022-07-15|2022-07-31": [
+  {
+   "t": "Small-caps lead stock-market surge as Russell 2000 sees biggest gain since January 2021",
+   "s": "MarketWatch",
+   "u": "https://www.marketwatch.com/story/small-caps-lead-stock-market-surge-as-russell-2000-sees-biggest-gain-since-january-2021-11658264516",
+   "d": "2022-07-19"
+  },
+  {
+   "t": "Small-Cap Stocks Have Been Big Winners. Why They Can Keep Outperforming.",
+   "s": "MarketWatch",
+   "u": "https://www.marketwatch.com/articles/small-cap-stocks-51659136127",
+   "d": "2022-07-30"
+  }
+ ],
+ "^RUT|2023-12-03|2023-12-19": [
+  {
+   "t": "Hennessy Japan Small Cap Fund: Japanese Small-Caps to Remain Resilient as Domestic Demand Recovers",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/hennessy-japan-small-cap-fund-225347096.html",
+   "d": "2023-12-14"
+  },
+  {
+   "t": "Here's Why ClearBridge Small Cap Growth Strategy Sold Stoneridge (SRI)",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/why-clearbridge-small-cap-growth-113454096.html",
+   "d": "2023-12-19"
+  }
+ ],
+ "^RUT|2025-02-12|2025-02-28": [
+  {
+   "t": "Wall Street's Greatest Dividend Stock Just Made History Again -- and 99.9% of Investors Have Never Heard of This Small-Cap Company",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/wall-streets-greatest-dividend-stock-100600630.html",
+   "d": "2025-02-28"
+  },
+  {
+   "t": "3 Undervalued Small Caps In Global With Recent Insider Buying",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/3-undervalued-small-caps-global-090923702.html",
+   "d": "2025-02-28"
+  }
+ ],
+ "HG=F|2022-06-11|2022-06-27": [
+  {
+   "t": "EXCLUSIVE Copper giant Codelco sees 'very firm' copper price ahead despite recent drop - chairman",
+   "s": "Reuters",
+   "u": "https://www.reuters.com/markets/us/exclusive-copper-giant-codelco-sees-very-firm-copper-price-ahead-despite-recent-2022-06-26/",
+   "d": "2022-06-26"
+  },
+  {
+   "t": "With Copper Prices Falling, What's Next For Freeport Stock?",
+   "s": "Forbes",
+   "u": "https://www.forbes.com/sites/greatspeculations/2022/06/27/with-copper-prices-falling-whats-next-for-freeport-stock/",
+   "d": "2022-06-27"
+  }
+ ],
+ "HG=F|2024-03-27|2024-04-12": [
+  {
+   "t": "Copper prices climb to 2024 high as Citi calls the start of the metal's second bull market this century",
+   "s": "CNBC",
+   "u": "https://www.cnbc.com/2024/04/10/copper-climbs-to-2024-high-as-wall-street-banks-raise-price-forecasts.html",
+   "d": "2024-04-10"
+  },
+  {
+   "t": "Traders bet on supply squeeze pushing up copper prices",
+   "s": "Financial Times News",
+   "u": "https://www.ft.com/content/c3c66359-6bdb-45cb-8ddd-663f10c1d3d9",
+   "d": "2024-03-30"
+  }
+ ],
+ "HG=F|2024-12-28|2025-01-13": [
+  {
+   "t": "Amazon and Ero Copper have been highlighted as Zacks Bull and Bear of the Day",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/amazon-ero-copper-highlighted-zacks-122700948.html",
+   "d": "2025-01-10"
+  },
+  {
+   "t": "Trump Tariff Fears Spark Disconnect in Silver and Copper Markets",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/trump-tariff-fears-spark-disconnect-183008686.html",
+   "d": "2025-01-09"
+  }
+ ],
+ "AMZN|2022-07-15|2022-07-31": [
+  {
+   "t": "Amazon earnings preview: Recession fears could drive discounts for Amazon's cloud computing services",
+   "s": "MarketWatch",
+   "u": "https://www.marketwatch.com/story/amazon-earnings-preview-recession-fears-could-drive-discounts-for-amazons-cloud-computing-services-11658775658",
+   "d": "2022-07-25"
+  },
+  {
+   "t": "Dow Jones Drops On Hot Inflation Report; Amazon, Apple Rally On Earnings",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/m/ab3cc666-0e92-3782-b21b-a13175a028c6/dow-jones-drops-on-hot.html?.tsrc=rss",
+   "d": "2022-07-29"
+  }
+ ],
+ "AMZN|2023-01-04|2023-01-20": [
+  {
+   "t": "Amazon.com Inc. stock falls Wednesday, still outperforms market",
+   "s": "MarketWatch",
+   "u": "https://www.marketwatch.com/story/amazon-com-inc-stock-falls-wednesday-still-outperforms-market-01674077420-ef92d5c41155",
+   "d": "2023-01-18"
+  },
+  {
+   "t": "Amazon.com Inc. stock falls Wednesday, underperforms market",
+   "s": "MarketWatch",
+   "u": "https://www.marketwatch.com/story/amazon-com-inc-stock-falls-wednesday-underperforms-market-01672867820-25c7df91f31d",
+   "d": "2023-01-04"
+  }
+ ],
+ "AMZN|2024-01-18|2024-02-03": [
+  {
+   "t": "Best AI Stocks 2024: Nvidia Stock vs. Amazon Stock vs. Google Stock",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/best-ai-stocks-2024-nvidia-141500620.html",
+   "d": "2024-01-26"
+  },
+  {
+   "t": "Bezos Discloses Plan to Sell Amazon Stock as Shares Surge",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/bezos-discloses-plan-sell-amazon-183048417.html",
+   "d": "2024-02-02"
+  }
+ ],
+ "META|2023-01-04|2023-01-20": [
+  {
+   "t": "Meta Platforms, Inc. (META) Stock Forecasts",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/research/reports/ARGUS_3592_AnalystReport_1673611972000/",
+   "d": "2023-01-13"
+  },
+  {
+   "t": "Buy these 30 stocks that are all on track to outperform a 'flattish' market in 2023, according to RBC, which says it's safe to bet on Facebook parent Meta this year",
+   "s": "Business Insider",
+   "u": "https://www.businessinsider.com/best-stocks-to-buy-in-2023-investing-meta-platforms-rbc-2023-1",
+   "d": "2023-01-04"
+  }
+ ],
+ "META|2024-01-18|2024-02-03": [
+  {
+   "t": "Meta stock jumps 20% on solid earnings, stock buyback, and dividend plan",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/meta-stock-jumps-20-on-solid-earnings-stock-buyback-and-dividend-plan-143622075.html",
+   "d": "2024-02-02"
+  },
+  {
+   "t": "This week in earnings: Meta jumps 16% following blockbuster results, UPS sinks",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/week-earnings-meta-jumps-16-073246248.html",
+   "d": "2024-02-02"
+  }
+ ],
+ "META|2025-10-23|2025-11-08": [
+  {
+   "t": "S&P 500 Gains and Losses Today: Meta Stock Drops After Earnings; Moderna Surges",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/p-500-gains-losses-today-203945614.html",
+   "d": "2025-10-30"
+  },
+  {
+   "t": "Stock market today: Dow rises, Nasdaq slides as Meta sinks after earnings with Apple, Amazon ahead",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/live/stock-market-today-dow-rises-nasdaq-slides-as-meta-sinks-after-earnings-with-apple-amazon-ahead-133548179.html",
+   "d": "2025-10-30"
+  }
+ ],
+ "UBER|2022-04-26|2022-05-12": [
+  {
+   "t": "Earnings: Lyft stock plunges on dismal forecast, Uber revenue doubles",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/video/earnings-lyft-stock-plunges-dismal-131901597.html",
+   "d": "2022-05-04"
+  },
+  {
+   "t": "Uber moves up earnings report after Lyft forecast sends stock into a slump",
+   "s": "MarketWatch",
+   "u": "https://www.marketwatch.com/story/uber-moves-up-earnings-report-after-lyft-forecast-sends-stock-into-a-slump-11651619530",
+   "d": "2022-05-03"
+  }
+ ],
+ "UBER|2023-11-22|2023-12-08": [
+  {
+   "t": "Uber Technologies, Inc. (UBER) Stock Forecasts",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/research/reports/ARGUS_5162_AnalystReport_1701430581000/",
+   "d": "2023-12-01"
+  },
+  {
+   "t": "Uber Technologies Inc. stock falls Tuesday, underperforms market",
+   "s": "MarketWatch",
+   "u": "https://www.marketwatch.com/data-news/uber-technologies-inc-stock-falls-tuesday-underperforms-market-436df072-63777b10b259",
+   "d": "2023-12-05"
+  }
+ ],
+ "UBER|2025-05-03|2025-05-19": [
+  {
+   "t": "Uber Technologies Inc (UBER) Q1 2025 Earnings Call Highlights: Record Growth and Strategic ...",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/uber-technologies-inc-uber-q1-070933281.html",
+   "d": "2025-05-08"
+  },
+  {
+   "t": "Uber Technologies, Inc. (UBER) Stock Forecasts",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/research/reports/ARGUS_5162_AnalystReport_1747156203000/",
+   "d": "2025-05-13"
+  }
+ ],
+ "MSFT|2023-01-15|2023-01-31": [
+  {
+   "t": "Amazon Stock Falls. Microsoft's Gloomy Outlook Is Bad News for Cloud Computing Stocks.",
+   "s": "MarketWatch",
+   "u": "https://www.marketwatch.com/articles/amazon-stock-microsoft-cloud-51674646111",
+   "d": "2023-01-25"
+  },
+  {
+   "t": "Amazon stock sinks, as Microsoft's 'worrisome' cloud outlook prompts UBS price target cut",
+   "s": "MarketWatch",
+   "u": "https://www.marketwatch.com/story/amazon-stock-sinks-as-microsofts-worrisome-cloud-outlook-prompts-ubs-price-target-cut-01674663016",
+   "d": "2023-01-25"
+  }
+ ],
+ "MSFT|2024-07-20|2024-08-05": [
+  {
+   "t": "Midday movers: Nvidia stock jumps, AMD, Tesla up, Microsoft sinks",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/midday-movers-nvidia-stock-jumps-172015613.html",
+   "d": "2024-07-31"
+  },
+  {
+   "t": "Microsoft Stock Drops As AI Capital Expenditures Surge To $56 Billion",
+   "s": "Forbes",
+   "u": "https://www.forbes.com/sites/petercohan/2024/07/31/microsoft-stock-drops-as-ai-capital-expenditures-surge-to-56-billion/",
+   "d": "2024-07-31"
+  }
+ ],
+ "MSFT|2026-01-22|2026-02-07": [
+  {
+   "t": "Bitcoin Falls as Microsoft Leads Tech Selloff After Earnings",
+   "s": "Barrons",
+   "u": "https://www.barrons.com/livecoverage/stock-market-news-today-013026/card/bitcoin-falls-as-microsoft-leads-tech-selloff-after-earnings-AGsMjOnEh7IXbuZFJa33",
+   "d": "2026-01-31"
+  },
+  {
+   "t": "Microsoft Earnings Prompt Tech Stock Selloff",
+   "s": "The Wall Street Journal",
+   "u": "https://www.wsj.com/finance/stocks/microsoft-earnings-prompt-tech-stock-selloff-227edca1",
+   "d": "2026-01-30"
+  }
+ ],
+ "BTC-USD|2023-01-04|2023-01-20": [
+  {
+   "t": "New to Bitcoin? How to Stay Safe and Avoid Common Bitcoin Scams",
+   "s": "CoinDesk",
+   "u": "https://www.coindesk.com/learn/new-to-bitcoin-how-to-stay-safe-and-avoid-common-bitcoin-scams/",
+   "d": "2023-01-10"
+  },
+  {
+   "t": "Why A Sudden Crypto Price Surge Has  Added $200 Billion To Bitcoin, Ethereum, BNB, XRP, Cardano, Dogecoin, Polygon And Solana In 2023",
+   "s": "Forbes",
+   "u": "https://www.forbes.com/sites/billybambrough/2023/01/20/why-a-sudden-crypto-price-surge-has--added-200-billion-to-bitcoin-ethereum-bnb-xrp-cardano-dogecoin-polygon-and-solana-in-2023/",
+   "d": "2023-01-20"
+  }
+ ],
+ "BTC-USD|2024-01-30|2024-02-15": [
+  {
+   "t": "Bitcoin Price Suddenly Surges To Fresh 2024 High After PayPal Billionaire's Huge Secret Bitcoin And Ethereum Bet Revealed",
+   "s": "Forbes",
+   "u": "https://www.forbes.com/sites/digital-assets/2024/02/14/bitcoin-price-suddenly-surges-to-fresh-2024-high-after-paypal-billionaires-huge-secret-bitcoin-and-ethereum-bet-revealed/",
+   "d": "2024-02-14"
+  },
+  {
+   "t": "Bitcoin Tops $47K as Spot Bitcoin ETFs Book One of Their Best Days",
+   "s": "CoinDesk",
+   "u": "https://www.coindesk.com/markets/2024/02/09/bitcoin-tops-47k-as-spot-bitcoin-etfs-book-one-of-their-best-days/",
+   "d": "2024-02-09"
+  }
+ ],
+ "BTC-USD|2025-11-03|2025-11-19": [
+  {
+   "t": "Peter Schiff Calls Saylor A Fraudster, Bitcoin's YTD Gains Evaporated Last Week: Bitcoin Prediction For 2026 Close?",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/peter-schiff-calls-saylor-fraudster-104807837.html",
+   "d": "2025-11-17"
+  },
+  {
+   "t": "Bitcoin miners have now mined more than 95% of Bitcoin's supply",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/bitcoin-miners-now-mined-more-174418679.html",
+   "d": "2025-11-17"
+  }
+ ],
+ "NFLX|2022-04-15|2022-05-01": [
+  {
+   "t": "Netflix's Growth Surge Has Stalled. Investors Should Wait Before Diving Back Into the Stock.",
+   "s": "MarketWatch",
+   "u": "https://www.marketwatch.com/articles/netflix-and-disney-shares-hit-a-rough-patch-dont-count-on-a-quick-bounceback-51650662671",
+   "d": "2022-04-22"
+  },
+  {
+   "t": "Is Netflix Stock's Post Earnings Sell Off An Opportunity To Buy?",
+   "s": "Forbes",
+   "u": "https://www.forbes.com/sites/greatspeculations/2022/04/22/is-netflix-stocks-post-earnings-sell-off-an-opportunity-to-buy/",
+   "d": "2022-04-22"
+  }
+ ],
+ "NFLX|2023-02-07|2023-02-23": [
+  {
+   "t": "Netflix Inc. stock falls Tuesday, underperforms market",
+   "s": "MarketWatch",
+   "u": "https://www.marketwatch.com/data-news/netflix-inc-stock-falls-tuesday-underperforms-market-6a39a72d-1d715880b866",
+   "d": "2023-02-21"
+  },
+  {
+   "t": "Netflix Inc. stock falls Friday, underperforms market",
+   "s": "MarketWatch",
+   "u": "https://www.marketwatch.com/data-news/netflix-inc-stock-falls-friday-underperforms-market-a87751db-5d91ee1da22f",
+   "d": "2023-02-17"
+  }
+ ],
+ "NFLX|2025-05-03|2025-05-19": [
+  {
+   "t": "Stock Movers: Netflix Takes Tariff Hit, Tyson Falls and Peabody Rises",
+   "s": "Bloomberg Business",
+   "u": "https://www.bloomberg.com/news/videos/2025-05-05/stock-movers-netflix-slips-tyson-falls-peabody-rises-video",
+   "d": "2025-05-05"
+  },
+  {
+   "t": "Stocks making the biggest premarket moves: Walmart, Netflix, Tesla, Reddit and more",
+   "s": "CNBC",
+   "u": "https://www.cnbc.com/2025/05/19/stocks-making-the-biggest-premarket-moves-wmt-nflx-tsla-and-more.html",
+   "d": "2025-05-19"
+  }
+ ],
+ "EURUSD=X|2022-10-27|2022-11-12": [
+  {
+   "t": "Euro slips as traders see ECB opening the door to slower rate hikes",
+   "s": "MarketWatch",
+   "u": "https://www.marketwatch.com/story/euro-slips-as-traders-see-ecb-opening-the-door-to-slower-rate-hikes-11666885531",
+   "d": "2022-10-27"
+  },
+  {
+   "t": "Euro slides after ECB's more dovish tone on rate outlook",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/euro-slides-ecb-raises-rates-131451336.html",
+   "d": "2022-10-27"
+  }
+ ],
+ "EURUSD=X|2024-10-31|2024-11-16": [
+  {
+   "t": "Euro Likely to Fall Further on ECB-Fed Divergence",
+   "s": "Barrons",
+   "u": "https://www.barrons.com/livecoverage/stock-market-today-111424/card/euro-likely-to-fall-further-on-ecb-fed-divergence-zH0fozoqNpGI9tsgTBOa",
+   "d": "2024-11-14"
+  },
+  {
+   "t": "ECB's Knot Is Optimistic on Outlook for Euro-Zone Economy",
+   "s": "Bloomberg Business",
+   "u": "https://www.bloomberg.com/news/articles/2024-11-07/ecb-s-knot-is-optimistic-on-outlook-for-euro-zone-economy",
+   "d": "2024-11-07"
+  }
+ ],
+ "EURUSD=X|2025-06-18|2025-07-04": [
+  {
+   "t": "ECB Risks 2% Undershoot If Euro Strength Persists, Villeroy Says",
+   "s": "Bloomberg Business",
+   "u": "https://www.bloomberg.com/news/articles/2025-07-04/ecb-risks-2-undershoot-if-euro-strength-persists-villeroy-says",
+   "d": "2025-07-04"
+  },
+  {
+   "t": "ECB Officials Flagged Danger of Strong Euro at June Meeting",
+   "s": "Bloomberg Business",
+   "u": "https://www.bloomberg.com/news/articles/2025-07-03/ecb-officials-flagged-danger-of-strong-euro-at-last-rate-meeting",
+   "d": "2025-07-03"
+  }
+ ],
+ "BA|2022-10-27|2022-11-12": [
+  {
+   "t": "Boeing Earnings Breakdown: Is Boeing Stock Grounded Or Just Delayed?",
+   "s": "Forbes",
+   "u": "https://www.forbes.com/sites/qai/2022/11/11/boeing-earnings-breakdown-is-boeing-stock-grounded-or-just-delayed/",
+   "d": "2022-11-11"
+  },
+  {
+   "t": "Dow's nearly 350-point rally highlighted by gains in Amgen, Boeing shares",
+   "s": "MarketWatch",
+   "u": "https://www.marketwatch.com/story/dow-s-nearly-350-point-rally-highlighted-by-gains-in-amgen-boeing-shares-01667939057",
+   "d": "2022-11-08"
+  }
+ ],
+ "BA|2024-02-10|2024-02-26": [
+  {
+   "t": "Boeing Stock Falls Despite Winning More 787 Orders. Here's Why.",
+   "s": "MarketWatch",
+   "u": "https://www.marketwatch.com/articles/boeing-stock-orders-6ba9bc7c",
+   "d": "2024-02-20"
+  },
+  {
+   "t": "Where Will Boeing Stock Be in 2 Years?",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/where-boeing-stock-2-years-213002023.html",
+   "d": "2024-02-16"
+  }
+ ],
+ "BA|2025-04-22|2025-05-08": [
+  {
+   "t": "Tesla stock jumps, Boeing earnings beat, Adobe partners with NFL",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/video/tesla-stock-jumps-boeing-earnings-151558682.html",
+   "d": "2025-04-23"
+  },
+  {
+   "t": "Norwegian Air cuts capacity forecast due to delayed Boeing deliveries, shares drop",
+   "s": "Reuters",
+   "u": "https://www.reuters.com/markets/europe/norwegian-airs-operating-loss-narrows-1st-quarter-beating-estimates-2025-05-08/",
+   "d": "2025-05-08"
+  }
+ ],
+ "TSLA|2022-11-30|2022-12-16": [
+  {
+   "t": "'Tesla has no working CEO': As stock drops 61% from its peak, a major Tesla shareholder calls for Elon Musk's ouster",
+   "s": "Fortune",
+   "u": "https://fortune.com/2022/12/15/tesla-shareholder-twitter-ceo-elon-musk-ouster-stock-falls-61-percent/",
+   "d": "2022-12-15"
+  },
+  {
+   "t": "Elon Musk Has Now Sold $22.9 Billion In Tesla Shares Since Buying Twitter -- And Dragged Down Tesla's Market Cap By $700 Billion In The Process",
+   "s": "Forbes",
+   "u": "https://www.forbes.com/sites/dereksaul/2022/12/15/elon-musk-has-now-sold-229-billion-in-tesla-shares-since-buying-twitter-and-dragged-down-teslas-market-cap-by-700-billion-in-the-process/",
+   "d": "2022-12-15"
+  }
+ ],
+ "TSLA|2024-01-07|2024-01-23": [
+  {
+   "t": "Stock market today: Energy stocks gain as oil rallies, Tesla declines",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/stock-market-today-energy-stocks-193919776.html",
+   "d": "2024-01-12"
+  },
+  {
+   "t": "Tesla Stock Drops After Price Cuts in China. That Isn't What Investors Want.",
+   "s": "MarketWatch",
+   "u": "https://www.marketwatch.com/articles/tesla-stock-china-price-cut-f8cd068c",
+   "d": "2024-01-12"
+  }
+ ],
+ "TSLA|2024-10-31|2024-11-16": [
+  {
+   "t": "Tesla Shares Surge as Chinese EV Stocks Plunge Following U.S. Election Results",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/tesla-shares-surge-chinese-ev-161330901.html",
+   "d": "2024-11-06"
+  },
+  {
+   "t": "Tesla Investors Confuse 'Valuation And Stock Price,' Says Gary Black As Investor Sees Recovery In Stock",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/tesla-investors-confuse-valuation-stock-120014018.html",
+   "d": "2024-11-04"
+  }
+ ],
+ "DIS|2022-04-15|2022-05-01": [
+  {
+   "t": "Roku, Disney, and FuboTV Stocks Sink After Netflix's Earnings",
+   "s": "MarketWatch",
+   "u": "https://www.marketwatch.com/articles/roku-disney-fubotv-netflix-stock-price-streaming-subscribers-51650441202",
+   "d": "2022-04-20"
+  },
+  {
+   "t": "Netflix stock slides 27% premarket and drags Disney, Roku, and Warner Bros. Discovery and Paramount lower with it",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/m/837d6a56-3f2d-349b-a0aa-547fdb24e0dd/netflix-stock-slides-27%25.html?.tsrc=rss&guccounter=1&guce_referrer=aHR0cDovL2ZpbmFuY2UueWFob28uY29tL3Jzcy9oZWFkbGluZT9zPU5GTFg&guce_referrer_sig=AQAAALG3yPzYjlqvfC9XgRBpGEVfLMsIo8UAcS5EiJ1pbZ7u9v3mWvNeedEqs06JD_y-0uWRdqtP15xYCBm6tyGDZ7c9zThl8uyHqZ4gKJ9W_x9WV82Q3pNLIBrVMiw7NsM0xsyZt7rdy415WUOCcQVbr65L3kh4fBvYmnmBSXrhh_g3",
+   "d": "2022-04-20"
+  }
+ ],
+ "DIS|2024-01-30|2024-02-15": [
+  {
+   "t": "Wall Street Is Cheering Disney's Earnings Beat. But There's a Better Reason to Buy Disney Stock Right Now.",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/wall-street-cheering-disneys-earnings-163000304.html",
+   "d": "2024-02-12"
+  },
+  {
+   "t": "'Disney sucks': Elon Musk is funding actress Gina Carano's lawsuit against Disney  --  asks Twitter users if they want to 'join' fight against the media giant. Should DIS investors be worried?",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/disney-sucks-elon-musk-funding-132000405.html",
+   "d": "2024-02-10"
+  }
+ ],
+ "DIS|2024-10-31|2024-11-16": [
+  {
+   "t": "Disney's (NYSE:DIS) Q3 Earnings Results: Revenue In Line With Expectations, Stock Soars",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/disney-nyse-dis-q3-earnings-124211657.html",
+   "d": "2024-11-14"
+  },
+  {
+   "t": "Disney Stock Surges To 6-Month High Thanks To Earnings Beat And Streaming Profit Optimism",
+   "s": "Forbes",
+   "u": "https://www.forbes.com/sites/dereksaul/2024/11/14/disney-stock-surges-to-6-month-high-thanks-to-earnings-beat-and-streaming-profit-optimism/",
+   "d": "2024-11-14"
+  }
+ ],
+ "ETH-USD|2022-05-30|2022-06-15": [
+  {
+   "t": "'Doomed To Collapse' -- Ethereum Creator Blasts These Cryptos As Price Of Bitcoin, Ethereum, BNB, XRP, Terra's Luna, Solana, Cardano, Dogecoin Turn Mixed",
+   "s": "Forbes",
+   "u": "https://www.forbes.com/sites/danrunkevicius/2022/05/31/doomed-to-collapse-ethereum-creator-blasts-these-cryptos-as-price-of-bitcoin-ethereum-bnb-xrp-terras-luna-solana-cardano-dogecoin-turn-mixed/",
+   "d": "2022-05-31"
+  },
+  {
+   "t": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+   "s": "CoinDesk",
+   "u": "https://www.coindesk.com/tv/breaking-news/",
+   "d": "2022-06-15"
+  }
+ ],
+ "ETH-USD|2024-02-10|2024-02-26": [
+  {
+   "t": "Fidelity Suddenly Issues Huge $1.5 Trillion Prediction As 'Parabolic' Bitcoin Price Surge Boosts Ethereum, XRP And Crypto",
+   "s": "Forbes",
+   "u": "https://www.forbes.com/sites/digital-assets/2024/02/26/fidelity-suddenly-issues-huge-15-trillion-prediction-as-parabolic-bitcoin-price-surge-boosts-ethereum-xrp-and-crypto/",
+   "d": "2024-02-26"
+  },
+  {
+   "t": "Ether's Bitcoin Beating Rally Not Just Because of Potential ETF Approval: Bernstein",
+   "s": "CoinDesk",
+   "u": "https://www.coindesk.com/business/2024/02/26/ethers-bitcoin-beating-rally-not-just-because-of-potential-etf-approval-bernstein/",
+   "d": "2024-02-26"
+  }
+ ],
+ "ETH-USD|2025-06-30|2025-07-16": [
+  {
+   "t": "Ether News: Ethereum Foundation Sells 10,000 ETH to SharpLink in First-Such OTC Deal",
+   "s": "CoinDesk",
+   "u": "https://www.coindesk.com/markets/2025/07/11/ethereum-foundation-sells-10000-eth-to-sharplink-in-first-such-otc-deal",
+   "d": "2025-07-11"
+  },
+  {
+   "t": "Ethereum (ETH) News: New Ether Proposal Seeks 16.7M Gas Cap to Rein In Transaction Bloat",
+   "s": "CoinDesk",
+   "u": "https://www.coindesk.com/tech/2025/07/07/vitalik-buterins-new-proposal-seeks-167m-gas-cap-on-ethereum-to-rein-in-transaction-bloat",
+   "d": "2025-07-07"
+  }
+ ],
+ "JPY=X|2022-11-19|2022-12-05": [
+  {
+   "t": "The Year's Big Yen Short Set for a Dramatic U-Turn in 2023",
+   "s": "Bloomberg Business",
+   "u": "https://www.bloomberg.com/news/articles/2022-12-05/the-year-s-big-yen-short-set-for-a-dramatic-u-turn-in-2023",
+   "d": "2022-12-05"
+  },
+  {
+   "t": "Resurgent Yen Faces Extra Boost From Insurers Chasing Hedges",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/japan-huge-life-insurers-caught-081442823.html",
+   "d": "2022-12-02"
+  }
+ ],
+ "JPY=X|2024-07-20|2024-08-05": [
+  {
+   "t": "Bitcoin Drops 15% Against Japanese Yen, Outpacing Declines Versus USD, as Yen Carry Trades Unwind",
+   "s": "CoinDesk",
+   "u": "https://www.coindesk.com/markets/2024/08/05/bitcoin-drops-15-against-japanese-yen-outpacing-declines-versus-usd-as-yen-carry-trades-unwind/",
+   "d": "2024-08-05"
+  },
+  {
+   "t": "Yen surges to 150 per dollar after Bank of Japan hikes rates",
+   "s": "MarketWatch",
+   "u": "https://www.marketwatch.com/story/yen-surges-to-150-per-dollar-after-bank-of-japan-hikes-rates-dabf317b",
+   "d": "2024-07-31"
+  }
+ ],
+ "JPY=X|2025-02-12|2025-02-28": [
+  {
+   "t": "Dollar firms as Trump's tariffs loom, yen set for monthly gain",
+   "s": "Reuters",
+   "u": "https://www.reuters.com/markets/currencies/dollar-firms-trumps-tariffs-loom-yen-set-monthly-gain-2025-02-28/",
+   "d": "2025-02-28"
+  },
+  {
+   "t": "Yen Traders Raise Focus on Japanese Data as Economy Shifts Gears",
+   "s": "Bloomberg Business",
+   "u": "https://www.bloomberg.com/news/articles/2025-02-26/yen-traders-raise-focus-on-japanese-data-as-economy-shifts-gears",
+   "d": "2025-02-26"
+  }
+ ],
+ "^TNX|2022-03-11|2022-03-27": [
+  {
+   "t": "2- and 10-year Treasury yields see biggest weekly gain in years as investors reassess Russia-Ukraine war developments",
+   "s": "MarketWatch",
+   "u": "https://www.marketwatch.com/story/treasury-yields-rise-as-investors-track-russia-ukraine-war-await-data-11648207949",
+   "d": "2022-03-25"
+  },
+  {
+   "t": "Treasury Yields Surge as Fed Traders Price In Even More Hikes",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/treasury-yields-surge-fed-traders-150723621.html",
+   "d": "2022-03-27"
+  }
+ ],
+ "^TNX|2023-11-22|2023-12-08": [
+  {
+   "t": "Financials Gains Limited By Rebound in Treasury Yields -- Financials Roundup",
+   "s": "MarketWatch",
+   "u": "https://www.marketwatch.com/story/financials-gains-limited-by-rebound-in-treasury-yields-financials-roundup-09b4ef54",
+   "d": "2023-12-08"
+  },
+  {
+   "t": "Treasury Yields Gained. These 2 Auctions Will Decide Their Next Move.",
+   "s": "Barrons",
+   "u": "https://www.barrons.com/livecoverage/stock-market-today-120823/card/treasury-yields-gained-these-2-auctions-will-decide-their-next-move--8moHBzAZknT8tBLoAtnv",
+   "d": "2023-12-08"
+  }
+ ],
+ "^TNX|2025-08-26|2025-09-11": [
+  {
+   "t": "Stocks Supported as US Producer Prices Ease and Bond Yields Fall",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/stocks-supported-us-producer-prices-141339180.html",
+   "d": "2025-09-11"
+  },
+  {
+   "t": "U.S. Treasury Yields Drift Higher Ahead of PPI Data",
+   "s": "Barrons",
+   "u": "https://www.barrons.com/livecoverage/stock-market-news-today-091025/card/u-s-treasury-yields-drift-higher-ahead-of-ppi-data-E0DWHA9Xnh9WMyVCwgPv",
+   "d": "2025-09-11"
+  }
+ ],
+ "XOM|2022-05-30|2022-06-15": [
+  {
+   "t": "Exxon Mobil's stock surges toward first record close in 8 years as oil, natural gas prices rally",
+   "s": "MarketWatch",
+   "u": "https://www.marketwatch.com/story/exxon-mobils-stock-surges-toward-first-record-close-in-8-years-as-oil-natural-gas-prices-rally-2022-06-08",
+   "d": "2022-06-08"
+  },
+  {
+   "t": "Oil stocks enjoy broad rally as crude prices jump, with Exxon Mobil at an 8-year high and Chevron at a record",
+   "s": "MarketWatch",
+   "u": "https://www.marketwatch.com/story/oil-stocks-enjoy-broad-rally-as-crude-prices-jump-with-exxon-mobil-at-an-8-year-high-and-chevron-at-a-record-2022-05-31",
+   "d": "2022-05-31"
+  }
+ ],
+ "XOM|2022-10-04|2022-10-20": [
+  {
+   "t": "Jefferies upgrades Exxon Mobil, calls it a premium oil stock poised to rally more than 30%",
+   "s": "CNBC",
+   "u": "https://www.cnbc.com/2022/10/19/jefferies-upgrades-exxon-mobil-calls-it-a-premium-oil-stock-poised-to-rally-more-than-30percent.html",
+   "d": "2022-10-19"
+  },
+  {
+   "t": "Exxon Mobil Corp. stock falls Friday, underperforms market",
+   "s": "MarketWatch",
+   "u": "https://www.marketwatch.com/story/exxon-mobil-corp-stock-falls-friday-underperforms-market-01665783180-b99e692c667d",
+   "d": "2022-10-14"
+  }
+ ],
+ "XOM|2025-12-30|2026-01-15": [
+  {
+   "t": "Stock Market News for Monday, Jan. 5, 2026: Dow, S&P 500, Nasdaq Rally After U.S. Raid in Venezuela; Exxon Mobil Stock, SLB, Chevron, Halliburton, ConocoPhillips, Comcast and Move Movers",
+   "s": "Barrons",
+   "u": "https://www.barrons.com/livecoverage/stock-market-news-today-010526?mod=hp_LEDE_C_2",
+   "d": "2026-01-06"
+  },
+  {
+   "t": "Exxon Mobil hit a record after Trump threatened to cut it out of Venezuela  --  here's why",
+   "s": "CNBC",
+   "u": "https://www.cnbc.com/2026/01/14/xom-hit-a-record-after-trump-threatened-to-cut-it-out-of-venezuela-heres-why.html",
+   "d": "2026-01-14"
+  }
+ ],
+ "CL=F|2022-06-11|2022-06-27": [
+  {
+   "t": "The G7 ponders capping oil prices to deny Russia revenues. How would it work?",
+   "s": "The New York Times",
+   "u": "https://www.nytimes.com/2022/06/27/business/g7-russia-oil-prices.html",
+   "d": "2022-06-27"
+  },
+  {
+   "t": "U.S. Gulf Coast crude oil exports to touch record high this quarter",
+   "s": "Reuters",
+   "u": "https://www.reuters.com/business/energy/us-gulf-coast-crude-oil-exports-touch-record-high-this-quarter-2022-06-27/",
+   "d": "2022-06-27"
+  }
+ ],
+ "CL=F|2023-07-07|2023-07-23": [
+  {
+   "t": "Oil prices edge higher as analyst sees Brent's potential to top $80 a barrel",
+   "s": "MarketWatch",
+   "u": "https://www.marketwatch.com/story/oil-prices-edge-higher-as-analysts-see-prices-topping-80-a-barrel-439cd6a7",
+   "d": "2023-07-11"
+  },
+  {
+   "t": "Qatar bourse gains on rising oil prices; Egypt falls",
+   "s": "Reuters",
+   "u": "https://www.reuters.com/world/middle-east/qatar-bourse-gains-rising-oil-prices-egypt-falls-2023-07-23/",
+   "d": "2023-07-23"
+  }
+ ],
+ "CL=F|2026-02-26|2026-03-14": [
+  {
+   "t": "Russian Urals oil price tops Brent for first time in Indian market, traders say",
+   "s": "Reuters",
+   "u": "https://www.reuters.com/business/energy/russian-urals-oil-price-tops-brent-first-time-indian-market-traders-say-2026-03-06/",
+   "d": "2026-03-06"
+  },
+  {
+   "t": "Goldman Sachs raises Q2 Brent oil price forecast by $10 to $76 a barrel",
+   "s": "Reuters",
+   "u": "https://www.reuters.com/business/energy/goldman-sachs-raises-q2-brent-oil-price-forecast-by-10-76-barrel-2026-03-04/",
+   "d": "2026-03-04"
+  }
+ ],
+ "PFE|2022-11-07|2022-11-23": [
+  {
+   "t": "Pfizer Inc. stock falls Wednesday, underperforms market",
+   "s": "MarketWatch",
+   "u": "https://www.marketwatch.com/story/pfizer-inc-stock-falls-wednesday-underperforms-market-01669241802",
+   "d": "2022-11-23"
+  },
+  {
+   "t": "Pfizer and BioNTech updated booster shows strong results against new omicron sublineages in fresh analysis of data",
+   "s": "MarketWatch",
+   "u": "https://www.marketwatch.com/story/pfizer-and-biontech-updated-booster-shows-strong-results-against-new-omicron-sublineages-in-fresh-analysis-of-data-11668786736",
+   "d": "2022-11-18"
+  }
+ ],
+ "PFE|2024-04-19|2024-05-05": [
+  {
+   "t": "Pfizer beats revenue estimates, raises profit outlook on cost cuts and strong non-Covid sales",
+   "s": "CNBC",
+   "u": "https://www.cnbc.com/2024/05/01/pfizer-pfe-earnings-q1-2024.html",
+   "d": "2024-05-01"
+  },
+  {
+   "t": "Pfizer stock gains 7% after earnings beat, company calls dividend 'secure'",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/pfizer-stock-gains-7-after-earnings-beat-company-calls-dividend-secure-200629827.html",
+   "d": "2024-05-01"
+  }
+ ],
+ "PFE|2025-03-18|2025-04-03": [
+  {
+   "t": "Pfizer, Inc. (PFE) Stock Forecasts",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/research/reports/MS_0P000004C0_AnalystReport_1743686849000/",
+   "d": "2025-04-03"
+  },
+  {
+   "t": "Better Beaten-Down Stock to Buy: Pfizer Vs. Moderna",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/news/better-beaten-down-stock-buy-123000684.html",
+   "d": "2025-04-03"
+  }
+ ],
+ "NG=F|2022-08-30|2022-09-15": [
+  {
+   "t": "Taking A Fling On FLNG As Europe Stocks Up On Natural Gas",
+   "s": "Forbes",
+   "u": "https://www.forbes.com/sites/johndobosz/2022/09/15/taking-a-fling-on-flng-as-europe-stocks-up-on-natural-gas/",
+   "d": "2022-09-15"
+  },
+  {
+   "t": "Cheniere CFO Aims for Investment-Grade Credit Rating as Natural-Gas Prices Soar",
+   "s": "The Wall Street Journal",
+   "u": "https://www.wsj.com/articles/cheniere-cfo-aims-for-investment-grade-credit-rating-as-natural-gas-prices-soar-11663273805",
+   "d": "2022-09-15"
+  }
+ ],
+ "NG=F|2023-01-04|2023-01-20": [
+  {
+   "t": "Liquefied Natural Gas Will Have a Less Frenzied 2023",
+   "s": "The Wall Street Journal",
+   "u": "https://www.wsj.com/articles/liquefied-natural-gas-will-have-a-less-frenzied-2023-11674140749",
+   "d": "2023-01-20"
+  },
+  {
+   "t": "What Does the Future Hold for Natural Gas?",
+   "s": "The Wall Street Journal",
+   "u": "https://www.wsj.com/articles/what-does-the-future-hold-for-natural-gas-11674082072",
+   "d": "2023-01-20"
+  }
+ ],
+ "NG=F|2024-11-12|2024-11-28": [
+  {
+   "t": "Analysts Expect 2 Billion-Cubic-Foot Withdrawal in U.S. Natural-Gas Inventories",
+   "s": "MarketWatch",
+   "u": "https://www.marketwatch.com/story/analysts-expect-2-billion-cubic-foot-withdrawal-in-u-s-natural-gas-inventories-57ecfaae",
+   "d": "2024-11-27"
+  },
+  {
+   "t": "Trump Energy Agenda Will Have A Heavy Natural Gas Focus",
+   "s": "Forbes",
+   "u": "https://www.forbes.com/sites/davidblackmon/2024/11/26/trump-energy-agenda-will-have-a-heavy-natural-gas-focus/",
+   "d": "2024-11-26"
+  }
+ ],
+ "^VIX|2022-10-27|2022-11-12": [
+  {
+   "t": "'Many prospective buyers are waiting for the volatility in mortgage rates to subside': Mortgage rates hit 7.08%, Freddie Mac says",
+   "s": "MarketWatch",
+   "u": "https://www.marketwatch.com/story/many-prospective-buyers-are-waiting-for-the-volatility-in-mortgage-rates-to-subside-mortgage-rates-hit-7-08-freddie-mac-says-11668095742",
+   "d": "2022-11-10"
+  },
+  {
+   "t": "Political volatility is becoming an economic risk",
+   "s": "Axios",
+   "u": "https://www.axios.com/2022/11/12/politics-economy-midterms-risk-investors",
+   "d": "2022-11-12"
+  }
+ ],
+ "^VIX|2024-07-08|2024-07-24": [
+  {
+   "t": "Why investors shouldn't get caught up in the 'seesaw' of election volatility",
+   "s": "MarketWatch",
+   "u": "https://www.marketwatch.com/story/why-investors-shouldnt-get-caught-up-in-the-seesaw-of-election-volatility-878b9af5",
+   "d": "2024-07-24"
+  },
+  {
+   "t": "Alphabet stock volatility 'a friend' to investors: Shareholder",
+   "s": "Yahoo! Finance",
+   "u": "https://finance.yahoo.com/video/alphabet-stock-volatility-friend-investors-155022791.html",
+   "d": "2024-07-24"
+  }
+ ],
+ "^VIX|2025-05-03|2025-05-19": [
+  {
+   "t": "How AI Can Help Leaders Deal With Ever-Increasing Volatility",
+   "s": "Forbes",
+   "u": "https://www.forbes.com/sites/rogertrapp/2025/05/19/how-ai-can-help-leaders-deal-with-ever-increasing-volatility/",
+   "d": "2025-05-19"
+  },
+  {
+   "t": "Siebert Sees Muni Borrowers Asking More of Banks Amid Volatility",
+   "s": "Bloomberg Business",
+   "u": "https://www.bloomberg.com/news/articles/2025-05-19/siebert-sees-muni-borrowers-asking-more-of-banks-amid-volatility",
+   "d": "2025-05-19"
+  }
+ ]
+}

@@ -97,7 +97,6 @@ export function createStage(container: HTMLElement, fov = 30): Stage | null {
       resizeObserver.disconnect();
       viewObserver.disconnect();
       themeObserver.disconnect();
-      scheme.removeEventListener("change", retheme);
       document.removeEventListener("visibilitychange", wake);
       scene.traverse((obj) => {
         const mesh = obj as THREE.Mesh;
@@ -154,8 +153,6 @@ export function createStage(container: HTMLElement, fov = 30): Stage | null {
   };
   const themeObserver = new MutationObserver(retheme);
   themeObserver.observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
-  const scheme = window.matchMedia("(prefers-color-scheme: dark)");
-  scheme.addEventListener("change", retheme);
   document.addEventListener("visibilitychange", wake);
 
   stage.invalidate();
