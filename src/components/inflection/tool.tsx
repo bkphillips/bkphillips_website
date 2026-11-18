@@ -138,12 +138,38 @@ export function InflectionTool() {
   const [layout, layoutWidth] = useWidth<HTMLDivElement>(1056);
   const viewport = useViewportHeight();
   const list = useRef<HTMLOListElement>(null);
-  // Side by side from 900px: the chart is then sized so that the series
-  // picker, the chart and the list of shifts fit in one window.
+  const card = useRef<HTMLElement>(null);
+  const chartBox = useRef<HTMLDivElement>(null);
+  /** Space taken above the chart card, and by the card's own header and controls. */
+  const [taken, setTaken] = useState({ above: 252, around: 112 });
+  // Side by side from 900px: the chart then takes whatever height is left in
+  // the window, so the page header, the series picker, the chart and the
+  // list of shifts are all visible at once.
   const wide = layoutWidth >= 900;
   const chartHeight = wide
-    ? Math.min(440, Math.max(240, viewport - 507))
+    ? Math.min(680, Math.max(280, viewport - taken.above - taken.around - 20))
     : undefined;
+
+  // The rows above the chart and the controls under it wrap differently at
+  // different widths, so measure them instead of assuming their height.
+  useEffect(() => {
+    const measure = () => {
+      const box = card.current?.getBoundingClientRect();
+      const chart = chartBox.current?.getBoundingClientRect();
+      if (!box || !chart) return;
+      const above = Math.round(box.top + window.scrollY);
+      const around = Math.round(box.height - chart.height);
+      setTaken((old) =>
+        Math.abs(old.above - above) < 2 && Math.abs(old.around - around) < 2
+          ? old
+          : { above, around },
+      );
+    };
+    measure();
+    // Again once the page's entrance animation has settled.
+    const later = window.setTimeout(measure, 900);
+    return () => window.clearTimeout(later);
+  }, [layoutWidth, viewport]);
 
   const key = keyOf(selection);
 
@@ -399,9 +425,12 @@ export function InflectionTool() {
       {/* Chart on the left, the list of shifts on the right. */}
       <div
         ref={layout}
-        className={`mt-5 grid gap-5 ${wide ? "grid-cols-[minmax(0,1fr)_23.5rem]" : ""}`}
+        className={`mt-5 grid gap-5 ${wide ? "grid-cols-[minmax(0,1fr)_clamp(23.5rem,30%,30rem)]" : ""}`}
       >
-        <figure className="min-w-0 rounded-2xl border border-line bg-surface">
+        <figure
+          ref={card}
+          className="min-w-0 rounded-2xl border border-line bg-surface"
+        >
           <figcaption className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1 border-b border-line px-5 py-3 sm:px-6">
             <span className="font-serif text-[1.25rem] tracking-tight">
               {data?.label ??
@@ -419,6 +448,7 @@ export function InflectionTool() {
           </figcaption>
 
           <div
+            ref={chartBox}
             className="px-1 sm:px-2"
             style={{ minHeight: chartHeight ?? 300 }}
           >

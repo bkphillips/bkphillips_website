@@ -2,6 +2,13 @@ import Link from "next/link";
 import { ProjectArt } from "@/components/project-art";
 import { getProject, projects, type Project } from "@/content/projects";
 
+/**
+ * Lets a compact page's header and tool run wider than the 1120px text
+ * column, up to 1500px, centred in the window.
+ */
+const BREAKOUT =
+  "relative left-1/2 w-[min(calc(100vw-3rem),1500px)] -translate-x-1/2";
+
 export function ProjectPage({
   slug,
   children,
@@ -22,25 +29,24 @@ export function ProjectPage({
   return (
     <div className="mx-auto max-w-[1120px] px-5 sm:px-8">
       {compact ? (
-        <section className="pt-6 pb-5">
-          <Link href="/#work" className="link rise text-sm text-muted">
-            ← All work
-          </Link>
-          <div
-            className="rise mt-3 flex flex-wrap items-baseline gap-x-4 gap-y-1"
-            style={{ "--i": 1 } as React.CSSProperties}
-          >
-            <h1 className="display text-[clamp(1.9rem,3.4vw,2.5rem)]">
-              {p.name}
-            </h1>
-            <span className="-translate-y-1 rounded-full bg-accent-soft px-2.5 py-1 font-mono text-[0.68rem] tracking-wide text-accent">
-              {p.status}
-            </span>
-            <p className="font-serif text-[1.15rem] tracking-tight text-muted">
-              {p.tagline}
-            </p>
-          </div>
-        </section>
+        <div className={BREAKOUT}>
+          <section className="pt-5 pb-4">
+            <div className="rise flex flex-wrap items-baseline gap-x-4 gap-y-1">
+              <Link href="/#work" className="link text-sm text-muted">
+                ← All work
+              </Link>
+              <h1 className="display text-[clamp(1.7rem,3vw,2.2rem)]">
+                {p.name}
+              </h1>
+              <span className="-translate-y-1 rounded-full bg-accent-soft px-2.5 py-1 font-mono text-[0.68rem] tracking-wide text-accent">
+                {p.status}
+              </span>
+              <p className="font-serif text-[1.1rem] tracking-tight text-muted">
+                {p.tagline}
+              </p>
+            </div>
+          </section>
+        </div>
       ) : (
         <section className="pt-14 pb-14 sm:pt-20 sm:pb-16">
           <Link href="/#work" className="link rise text-sm text-muted">
@@ -71,9 +77,14 @@ export function ProjectPage({
       )}
 
       {children ? (
-        <section className="rise" style={{ "--i": 4 } as React.CSSProperties}>
-          {children}
-        </section>
+        <div className={compact ? BREAKOUT : undefined}>
+          <section
+            className="rise"
+            style={{ "--i": compact ? 1 : 4 } as React.CSSProperties}
+          >
+            {children}
+          </section>
+        </div>
       ) : (
         <section
           className="rise rounded-2xl border border-line bg-surface px-4 py-8 sm:px-16 sm:py-10"
