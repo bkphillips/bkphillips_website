@@ -3,11 +3,8 @@
 export function ThemeToggle() {
   const toggle = () => {
     const root = document.documentElement;
-    const current =
-      root.dataset.theme ??
-      (window.matchMedia("(prefers-color-scheme: dark)").matches
-        ? "dark"
-        : "light");
+    // Light unless the visitor has chosen dark.
+    const current = root.dataset.theme === "dark" ? "dark" : "light";
     const next = current === "dark" ? "light" : "dark";
     root.dataset.theme = next;
     try {

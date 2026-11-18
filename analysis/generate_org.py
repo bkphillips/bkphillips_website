@@ -1,4 +1,4 @@
-"""Generate a synthetic company for the Org Health Explorer.
+"""Generate a synthetic company for the Kestrel Org Explorer.
 
 Simulates about 5,000 employees over 36 months: reporting lines, levels,
 locations, hires, exits and office attendance. Four events are planted in the

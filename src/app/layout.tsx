@@ -35,7 +35,8 @@ export const metadata: Metadata = {
   },
 };
 
-// Applies a saved light/dark choice before first paint, so there is no flash.
+// The site is light by default. This applies a saved dark (or light) choice
+// before first paint, so there is no flash.
 const themeScript = `try{var t=localStorage.getItem("theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}catch(e){}`;
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

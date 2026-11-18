@@ -1,0 +1,860 @@
+{
+ "^GSPC|2022-09-21": {
+  "h": "Fed rate fears drive 2022 bear market low",
+  "t": "The S&P 500 hit its lowest level since November 2020 as the Fed's rapid hikes against inflation stoked recession fears. Cooling inflation and AI enthusiasm later carried the index higher.",
+  "c": "high",
+  "i": 5,
+  "u": "https://www.barrons.com/articles/stocks-sp-500-market-inflation-51663947342",
+  "s": "Barrons",
+  "d": "2022-09-23"
+ },
+ "^GSPC|2025-03-05": {
+  "h": "Trump tariff escalation tips stocks into correction",
+  "t": "Escalating tariffs, including doubled duties on Canadian steel and aluminum, pushed the S&P 500 10% below its February 19 record. The higher average reflects comparison with the lower 2022–24 levels.",
+  "c": "high",
+  "i": 4,
+  "u": "https://time.com/7266926/stock-market-drop-trump-trade-war/",
+  "s": "TIME",
+  "d": "2025-03-11"
+ },
+ "^GSPC|2025-06-28": {
+  "h": "Trade deals and tech rally lift stocks to records",
+  "t": "The S&P 500 recovered from a near-19% correction to fresh records, helped by a US–Vietnam trade deal and tech gains. Continued enthusiasm for AI stocks then carried the index higher.",
+  "c": "medium",
+  "i": 4,
+  "u": "https://www.cnbc.com/2025/07/03/cfra-hikes-outlook-for-sp-500-as-stock-market-rises-to-new-highs.html",
+  "s": "CNBC",
+  "d": "2025-07-03"
+ },
+ "^IXIC|2022-09-21": {
+  "h": "Nasdaq bottoms as Fed rate hikes bite",
+  "t": "The index was near its 2022 low of about 10,900 after aggressive Federal Reserve rate rises. The 2023 rally in artificial intelligence stocks then lifted it to a higher average.",
+  "c": "medium",
+  "i": 4
+ },
+ "^IXIC|2025-03-05": {
+  "h": "Tariff fears trigger Nasdaq correction",
+  "t": "Trump's tariff threats pushed the Nasdaq more than 10% below its peak, including its worst day since September 2022. A recovery led by tech stocks later carried it to a higher average.",
+  "c": "high",
+  "i": 5,
+  "u": "https://www.barrons.com/livecoverage/stock-market-today-031125/card/the-nasdaq-tries-to-bounce-back-from-worst-day-since-2022-rf38c4mvoPM8LCdhf4GS?siteid=yhoof2&yptr=yahoo",
+  "s": "Barrons",
+  "d": "2025-03-11"
+ },
+ "^IXIC|2025-10-09": {
+  "h": "Nasdaq steps higher despite China trade jitters",
+  "t": "The index rose to around 22,200 as renewed US-China trade tensions caused choppy trading. The articles do not explain why the index moved to a higher average after this date.",
+  "c": "low",
+  "i": 2,
+  "u": "https://www.barrons.com/livecoverage/stock-market-news-today-101425?mod=hp_LEDE_C_1",
+  "s": "Barrons",
+  "d": "2025-10-14"
+ },
+ "^DJI|2022-10-25": {
+  "h": "Hopes of slower Fed hikes end bear market",
+  "t": "The Dow rallied off its 2022 lows as Treasury yields eased on reports the Fed would debate smaller rate rises. Cooling inflation then carried it to about 34,000 by spring 2023.",
+  "c": "medium",
+  "i": 4,
+  "u": "https://finance.yahoo.com/m/94b3c5d0-09ff-37e4-b64b-3a6655a8d023/dow-jones-futures-rise-ahead.html?.tsrc=rss",
+  "s": "Yahoo! Finance",
+  "d": "2022-10-24"
+ },
+ "^DJI|2023-12-02": {
+  "h": "Bets on Fed rate cuts spark record run",
+  "t": "Falling bond yields gave the Dow its best month in a year and a 2023 high near 35,800. A December Fed signal of rate cuts then pushed it to records above 38,000.",
+  "c": "high",
+  "i": 4,
+  "u": "https://www.marketwatch.com/story/dow-jones-up-360-points-heading-for-best-month-since-october-2022-a8a6632e",
+  "s": "MarketWatch",
+  "d": "2023-11-30"
+ },
+ "^DJI|2025-03-05": {
+  "h": "Trump tariffs and recession fears hit stocks",
+  "t": "The Dow sank to a six-month low as new tariffs and Trump's refusal to rule out recession rattled investors. Stocks recovered after April's tariff pause, reaching about 45,400 within six months.",
+  "c": "high",
+  "i": 5,
+  "u": "https://www.washingtonpost.com/business/2025/03/10/stocks-dow-fall-trump/",
+  "s": "Washington Post",
+  "d": "2025-03-10"
+ },
+ "JPM|2022-10-14": {
+  "h": "Earnings beat marks JPMorgan's 2022 low",
+  "t": "Shares rose 3% on 14 October 2022 after third-quarter profit of $9.7bn beat forecasts despite a 17% drop. This ended a slide of more than 30% that year, and higher interest income lifted the stock afterwards.",
+  "c": "high",
+  "i": 4,
+  "u": "https://www.marketwatch.com/story/jpmorgan-profit-falls-but-beats-estimates-while-wells-fargo-misses-11665751426",
+  "s": "MarketWatch",
+  "d": "2022-10-14"
+ },
+ "JPM|2023-12-13": {
+  "h": "Rate-cut hopes launch long bank rally",
+  "t": "Bank stocks and bonds rallied in mid-December 2023 as investors bet on interest-rate cuts in 2024. JPMorgan's shares climbed from $143 towards $194 within months, and strong profits sustained the rise.",
+  "c": "medium",
+  "i": 4,
+  "u": "https://www.marketwatch.com/story/bond-prices-rally-for-jpmorgan-morgan-stanley-goldman-sachs-and-bank-of-america-as-sentiment-turns-bullish-on-money-center-banks-18c893ff",
+  "s": "MarketWatch",
+  "d": "2023-12-14"
+ },
+ "JPM|2026-01-21": {
+  "h": "Disappointing earnings start a dip, then recovery",
+  "t": "Shares fell 4.2% in January 2026 after lower profit, an Apple Card charge and an unexpected drop in investment-banking fees. A threatened cap on credit-card rates also weighed. The stock later rebounded to about $353.",
+  "c": "medium",
+  "i": 3,
+  "u": "https://www.wsj.com/finance/stocks/dow-falls-after-jpmorgan-kicks-off-earnings-season-on-a-down-note-c17d8a59",
+  "s": "The Wall Street Journal",
+  "d": "2026-01-14"
+ },
+ "WMT|2022-05-18": {
+  "h": "Inflation-hit profit miss sinks Walmart to a low",
+  "t": "Walmart fell 11.4% on 17 May 2022, its worst day since 1987, after rising fuel and labour costs cut profit 25%. Shares then recovered as inflation-squeezed shoppers traded down to it.",
+  "c": "high",
+  "i": 4,
+  "u": "https://www.reuters.com/markets/us/consumer-stocks-diverge-walmart-disappoints-citing-inflation-2022-05-17/",
+  "s": "Reuters",
+  "d": "2022-05-17"
+ },
+ "WMT|2024-08-10": {
+  "h": "Record sales outlook starts Walmart's steep climb",
+  "t": "In mid-August 2024, Walmart raised its forecasts as bargain-hunting shoppers lifted US comparable sales 4.2%, sending shares to a record high. Its average price nearly doubled in the period that followed.",
+  "c": "high",
+  "i": 4,
+  "u": "https://finance.yahoo.com/video/walmart-boosts-sales-outlook-shares-082513957.html",
+  "s": "Yahoo! Finance",
+  "d": "2024-08-16"
+ },
+ "WMT|2026-06-19": {
+  "h": "Walmart slips from its peak as investors rotate",
+  "t": "Shares fell from about $132 to $116 in the weeks to June 2026, as investors moved away from defensive momentum stocks. Commentators flagged slower core US growth, but no clear trigger explains the turn.",
+  "c": "low",
+  "i": 2,
+  "u": "https://www.bloomberg.com/news/articles/2026-05-21/stock-futures-fall-as-nvidia-fails-to-spark-lift-walmart-slides",
+  "s": "Bloomberg Business",
+  "d": "2026-06-05"
+ },
+ "GC=F|2022-11-29": {
+  "h": "Gold rebounds as Fed signals slower rate hikes",
+  "t": "Gold recovered from a low near $1,709 as a softer dollar and expectations of slower Fed hikes lifted it. Central bank buying then carried it to a record by December 2023.",
+  "c": "medium",
+  "i": 2,
+  "u": "https://www.cnbc.com/2022/12/05/gold-markets-us-dollar-interest-rates-hikes-fed.html",
+  "s": "CNBC",
+  "d": "2022-12-05"
+ },
+ "GC=F|2024-03-03": {
+  "h": "Rate-cut bets push gold to record high",
+  "t": "Gold broke its record at $2,141 on bets of US rate cuts, haven buying and heavy central bank purchases. Those forces carried it past $3,000 and then $4,000 during 2025.",
+  "c": "high",
+  "i": 4,
+  "u": "https://www.ft.com/content/72ae7a4a-83fe-4e55-8265-4278204c1d5d",
+  "s": "Financial Times News",
+  "d": "2024-03-05"
+ },
+ "GC=F|2026-01-21": {
+  "h": "Gold peaks above $5,000 amid Trump turmoil",
+  "t": "Gold topped $5,000 for the first time as tariff threats and fears of a US government shutdown drove haven buying. It then slid toward $4,000, but these articles do not explain the reversal.",
+  "c": "medium",
+  "i": 4,
+  "u": "https://www.theguardian.com/business/2026/jan/26/gold-prices-record-5000-ounce-trump-turmoil",
+  "s": "The Guardian",
+  "d": "2026-01-26"
+ },
+ "SI=F|2022-06-21": {
+  "h": "Silver nears a low as Fed hikes rates",
+  "t": "Silver slid toward $19 as a rising dollar and Treasury yields weighed on precious metals during aggressive Federal Reserve rate hikes. It recovered to about $24 within six months as the dollar's surge faded.",
+  "c": "medium",
+  "i": 2,
+  "u": "https://finance.yahoo.com/news/silver-price-prediction-prices-whipsaw-215531201.html",
+  "s": "Yahoo! Finance",
+  "d": "2022-06-09"
+ },
+ "SI=F|2025-07-21": {
+  "h": "Silver breaks out to a 13-year high",
+  "t": "Silver broke out of a sideways range to a 13-year high near $38. Strong safe-haven and investor demand meeting tight supply then carried it past $100 within six months.",
+  "c": "medium",
+  "i": 4,
+  "u": "https://finance.yahoo.com/news/silver-prices-pushing-higher-trade-141059130.html?guccounter=1&guce_referrer=aHR0cHM6Ly9maW5hbmNlLnlhaG9vLmNvbS9yc3MvdG9wc3Rvcmllcw&guce_referrer_sig=AQAAAGsC3Q9X13t3zXUVIz1-1ibtK_A7ms8TaIYIL52-a677OrOdguH0UauZkihRDz5BFrYKJxdAYkmGI4pblR2Rr2IK5h7B2VxzXCmdFSJNnbkzYFuNHKj62dwCZDw8o7Zl8xFkFS8UZQDQoFG0W099H4fDBAfZvBWCFCjj11baD3Ve",
+  "s": "Yahoo! Finance",
+  "d": "2025-07-11"
+ },
+ "SI=F|2026-01-09": {
+  "h": "Silver peaks after record-breaking speculative frenzy",
+  "t": "Silver topped $80 after a 177% climb since early 2025, fuelled by Chinese retail buying and tight supply. CME margin hikes triggered sharp swings, and prices eased to about $56 over six months.",
+  "c": "medium",
+  "i": 5,
+  "u": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-01-06-2026/card/silver-prices-surge-past-80-an-ounce-s7uMpWJmfrulPMUAnPyI",
+  "s": "The Wall Street Journal",
+  "d": "2026-01-06"
+ },
+ "^FTSE|2024-03-25": {
+  "h": "Rate-cut hopes lift FTSE toward record high",
+  "t": "The FTSE 100 neared its all-time high at 7,949 after Bank of England governor Andrew Bailey said markets were right to expect several rate cuts. The index then held above 8,300.",
+  "c": "high",
+  "i": 4,
+  "u": "https://www.ft.com/content/2462b391-60b8-4e31-875e-23b8fd3c9388",
+  "s": "Financial Times News",
+  "d": "2024-03-22"
+ },
+ "^FTSE|2025-03-28": {
+  "h": "US tariff fears knock FTSE before recovery",
+  "t": "The index slid from about 8,700 as investors braced for sweeping US tariffs announced in early April 2025. It rebounded once tariffs were paused, climbing to about 9,500 within six months.",
+  "c": "medium",
+  "i": 5,
+  "u": "https://finance.yahoo.com/news/ftse-100-live-02-april-061010279.html",
+  "s": "Yahoo! Finance",
+  "d": "2025-04-02"
+ },
+ "^FTSE|2026-03-08": {
+  "h": "Middle East oil shock stalls record-setting rally",
+  "t": "After eight straight monthly gains and a record near 10,900, the FTSE stalled as Middle East strife pushed oil higher and hit bonds and travel stocks. Its miners and defensive stocks later supported gains.",
+  "c": "medium",
+  "i": 3,
+  "u": "https://www.bloomberg.com/news/live-blog/2026-03-12/ftse-100-bonds-oil-iran-war-trump-what-s-moving-uk-markets-right-now-markets-today",
+  "s": "Bloomberg Business",
+  "d": "2026-03-12"
+ },
+ "^N225|2023-05-09": {
+  "h": "Shareholder payouts lift Nikkei to 18-month high",
+  "t": "The Nikkei closed at 29,388 on 12 May 2023, its highest since November 2021, as firms announced shareholder returns. A broader foreign-investor rally then carried it above 32,000 within two months.",
+  "c": "medium",
+  "i": 3,
+  "u": "https://finance.yahoo.com/news/nikkei-ends-1-1-2-064143130.html",
+  "s": "Yahoo! Finance",
+  "d": "2023-05-12"
+ },
+ "^N225|2025-03-05": {
+  "h": "Tariff fears and strong yen hit Nikkei",
+  "t": "In early March 2025, worries over US tariffs and a stronger yen pushed the Nikkei to six-month lows. After April's tariff turmoil and July's US-Japan trade deal, it reached about 43,000 by autumn.",
+  "c": "high",
+  "i": 4,
+  "u": "https://www.reuters.com/markets/asia/japans-nikkei-slumps-tariff-concerns-yen-strength-unsettle-market-2025-03-04/",
+  "s": "Reuters",
+  "d": "2025-03-04"
+ },
+ "^N225|2026-05-27": {
+  "h": "Iran peace hopes drive Nikkei to record",
+  "t": "The Nikkei closed at a record 66,330 on 29 May 2026 on hopes of a US-Iran peace deal, capping a 12% May gain. It eased back to around 59,000 over the following six months.",
+  "c": "high",
+  "i": 4,
+  "u": "https://www.barrons.com/livecoverage/stock-market-news-today-052926/card/nikkei-rises-2-5-to-all-time-high-led-by-electronics-stocks-9s5jyVPZN6IBvrChQVal",
+  "s": "Barrons",
+  "d": "2026-05-29"
+ },
+ "GOOGL|2023-03-12": {
+  "h": "Google bottoms out as AI fightback begins",
+  "t": "Shares hit about $91 on 10 March amid fears that AI-powered Bing threatened search, then rose five days straight as Google announced generative AI for Docs and Gmail. Strong earnings later lifted the average 32%.",
+  "c": "medium",
+  "i": 3,
+  "u": "https://www.marketwatch.com/data-news/alphabet-inc-cl-a-stock-falls-friday-underperforms-market-82cd0094-0b1d3254821e",
+  "s": "MarketWatch",
+  "d": "2023-03-10"
+ },
+ "GOOGL|2025-03-17": {
+  "h": "Tariff fears and $32bn Wiz deal mark low",
+  "t": "Alphabet had shed over $500 billion in value as trade-war fears hit tech, and announced its largest-ever deal, a $32 billion purchase of Wiz. Cloud growth and a mild antitrust ruling later lifted it.",
+  "c": "medium",
+  "i": 3,
+  "u": "https://finance.yahoo.com/video/alphabet-stock-falls-announcing-32b-151100294.html",
+  "s": "Yahoo! Finance",
+  "d": "2025-03-18"
+ },
+ "GOOGL|2025-11-25": {
+  "h": "Gemini 3 and chip talks spark surge",
+  "t": "Gemini 3's debut and reports that Meta might use Google's AI chips pushed shares past $320, wiping about $250 billion from Nvidia. The average over the following year was 62% higher.",
+  "c": "high",
+  "i": 5,
+  "u": "https://www.barrons.com/livecoverage/stock-market-news-today-112625/card/alphabet-keeps-climbing-nvidia-falls-after-google-meta-chip-talks-bGNo6GEUlMCuTLvb7MCP?siteid=yhoof2&yptr=yahoo",
+  "s": "Barrons",
+  "d": "2025-11-26"
+ },
+ "AAPL|2023-03-24": {
+  "h": "Apple extends early-2023 rebound as rate fears ease",
+  "t": "Apple had gained about 9% in the month before this date as bond yields fell during the banking turmoil. No report explains the turn itself, but the climb continued to a $3 trillion valuation that June.",
+  "c": "low",
+  "i": 2,
+  "u": "https://finance.yahoo.com/news/apple-aapl-stock-sinks-market-214509273.html",
+  "s": "Yahoo! Finance",
+  "d": "2023-03-27"
+ },
+ "AAPL|2024-06-14": {
+  "h": "Apple Intelligence unveiling sends shares to record",
+  "t": "Shares jumped 7.3% to a record $207 the day after Apple unveiled its AI features. Hopes of an iPhone upgrade cycle carried the stock to a $259 peak that December.",
+  "c": "high",
+  "i": 5,
+  "u": "https://finance.yahoo.com/m/dee08dfd-d432-3096-8dd7-867194114a45/berkshire-hathaway-stock-gets.html",
+  "s": "Yahoo! Finance",
+  "d": "2024-06-11"
+ },
+ "AAPL|2025-03-17": {
+  "h": "Siri delay and tariff fears sink Apple shares",
+  "t": "Apple had its worst week since 2022, falling nearly 11%, amid delayed Siri features and tariff worries. Losses deepened in April's tariff selloff before the shares recovered later in the year.",
+  "c": "medium",
+  "i": 4,
+  "u": "https://www.bloomberg.com/news/articles/2025-03-17/apple-s-worst-week-since-2022-spurs-wall-street-to-defend-stock",
+  "s": "Bloomberg Business",
+  "d": "2025-03-17"
+ },
+ "^RUT|2022-07-25": {
+  "h": "Summer rally fades as rate hikes bite",
+  "t": "After a 10.4% July rebound, small caps slid to about 1,680 by autumn as the Federal Reserve kept raising rates aggressively. They stayed lower through 2023.",
+  "c": "medium",
+  "i": 2,
+  "u": "https://www.reuters.com/markets/europe/wall-st-week-ahead-after-steep-decline-us-small-caps-tempt-investors-with-cheap-2022-07-29/",
+  "s": "Reuters",
+  "d": "2022-07-29"
+ },
+ "^RUT|2023-12-13": {
+  "h": "Fed signals rate cuts, small caps surge",
+  "t": "On 13 December 2023 the Fed signalled rate cuts for 2024, extending a rally from October's 1,681 low. The Russell gained 7.7% that month, and expected cuts kept it higher afterwards.",
+  "c": "medium",
+  "i": 4,
+  "u": "https://www.marketwatch.com/story/russell-2000-on-pace-for-best-month-versus-s-p-500-in-nearly-3-years-1b0c7b89",
+  "s": "MarketWatch",
+  "d": "2023-12-13"
+ },
+ "^RUT|2025-02-22": {
+  "h": "Tariff fears sink small caps before recovery",
+  "t": "Small caps fell about 10% from their late-2024 high as optimism about Trump's policies soured. April's tariff shock took them to about 1,958 before tariff pauses fuelled a recovery.",
+  "c": "medium",
+  "i": 4,
+  "u": "https://www.bloomberg.com/news/articles/2025-02-27/small-cap-stocks-gloom-deepens-as-executive-sentiment-sours-too",
+  "s": "Bloomberg Business",
+  "d": "2025-02-27"
+ },
+ "HG=F|2022-06-21": {
+  "h": "Recession fears knock copper to 16-month low",
+  "t": "Copper posted its biggest weekly fall in a year as central-bank rate rises stoked recession fears. It touched $8,122 a tonne, then stayed lower for nearly two years.",
+  "c": "high",
+  "i": 4,
+  "u": "https://www.ft.com/content/f211f1e2-e080-4d31-96c8-7a0599da77a9",
+  "s": "Financial Times News",
+  "d": "2022-06-23"
+ },
+ "HG=F|2024-04-06": {
+  "h": "Mine supply squeeze sparks new copper rally",
+  "t": "Outages such as Panama's big mine closure created an unprecedented ore shortage, and Citi called a new bull market. Prices reached their highest since June 2022 and stayed higher.",
+  "c": "high",
+  "i": 4,
+  "u": "https://www.cnbc.com/2024/04/10/copper-climbs-to-2024-high-as-wall-street-banks-raise-price-forecasts.html",
+  "s": "CNBC",
+  "d": "2024-04-10"
+ },
+ "HG=F|2025-01-07": {
+  "h": "Trump tariff bets lift US copper prices",
+  "t": "Copper rebounded from a winter dip as traders bet Donald Trump would put import tariffs on the metal. That pushed New York futures above international benchmarks and drove a sustained climb.",
+  "c": "medium",
+  "i": 4,
+  "u": "https://www.bloomberg.com/news/articles/2025-01-09/trump-tariff-fears-spark-disconnect-in-silver-and-copper-markets",
+  "s": "Bloomberg Business",
+  "d": "2025-01-09"
+ },
+ "AMZN|2022-07-25": {
+  "h": "Summer rebound fades as rate hikes bite",
+  "t": "Amazon rallied to about $135, helped by a 10% jump on better-than-expected sales. No report explains the turn. Shares then slid toward $102 as rising interest rates and slowing growth weighed.",
+  "c": "low",
+  "i": 2,
+  "u": "https://fortune.com/2022/07/28/amazon-earnings-shares-jump-strong-sales-inflation-bad-economy/",
+  "s": "Fortune",
+  "d": "2022-07-28"
+ },
+ "AMZN|2023-01-14": {
+  "h": "Amazon bottoms out amid 18,000 job cuts",
+  "t": "Shares bottomed near $97 as Amazon began cutting 18,000 jobs. They then recovered to about $130 within six months as cost cuts and enthusiasm for AI lifted big tech.",
+  "c": "medium",
+  "i": 4,
+  "u": "https://finance.yahoo.com/news/microsoft-plans-10-000-job-151233617.html",
+  "s": "Yahoo! Finance",
+  "d": "2023-01-18"
+ },
+ "AMZN|2024-01-28": {
+  "h": "Blowout holiday earnings send Amazon to two-year high",
+  "t": "Holiday-quarter revenue of $170 billion beat forecasts and sent shares up about 8% to $172. Growth in advertising and cloud computing then carried the average 72% higher.",
+  "c": "high",
+  "i": 4,
+  "u": "https://finance.yahoo.com/news/bezos-discloses-plan-sell-amazon-183048417.html",
+  "s": "Yahoo! Finance",
+  "d": "2024-02-02"
+ },
+ "META|2023-01-14": {
+  "h": "Meta rebounds from 2022 crash on cost cuts",
+  "t": "After sliding below $90 in November 2022, Meta was recovering by January. Zuckerberg's 2023 \"year of efficiency,\" including more than 11,000 layoffs, then helped lift it to about $294.",
+  "c": "medium",
+  "i": 4,
+  "u": "https://www.forbes.com/sites/qai/2023/01/08/why-did-meta-stock-go-up-this-week/",
+  "s": "Forbes",
+  "d": "2023-01-08"
+ },
+ "META|2024-01-28": {
+  "h": "Blockbuster earnings and first dividend lift Meta",
+  "t": "Meta jumped about 20% on 2 February 2024 after profits tripled and it announced its first dividend, adding a record $200 billion in value in a day. AI-driven advertising growth sustained the higher level.",
+  "c": "high",
+  "i": 5,
+  "u": "https://www.nytimes.com/2024/02/02/business/meta-stock.html",
+  "s": "The New York Times",
+  "d": "2024-02-02"
+ },
+ "META|2025-11-02": {
+  "h": "AI spending warning ends Meta's rally",
+  "t": "Meta fell about 12% on 30 October 2025, despite strong results, after warning that AI infrastructure costs would grow much faster in 2026. Shares then hovered near $610 to $650, well below their summer peak.",
+  "c": "high",
+  "i": 4,
+  "u": "https://www.cnbc.com/2025/10/30/meta-stock-earnings-ai-spend.html",
+  "s": "CNBC",
+  "d": "2025-10-30"
+ },
+ "NVDA|2022-09-21": {
+  "h": "Nvidia bottoms amid chip slump and China curbs",
+  "t": "Nvidia hit a low near $12.5 after a 9.5% one-day drop on hot inflation data and new US export limits on chips to China. ChatGPT's launch that November then drove an AI-led recovery.",
+  "c": "medium",
+  "i": 4,
+  "u": "https://www.barrons.com/articles/chip-stocks-news-nvidia-intel-samsung-51663351350",
+  "s": "Barrons",
+  "d": "2022-09-16"
+ },
+ "NVDA|2023-09-12": {
+  "h": "AI chip boom enters steeper climb",
+  "t": "After a 200% rally in 2023, Nvidia paused near record highs in September. Surging demand for its AI data-centre chips then roughly doubled the share price within six months.",
+  "c": "medium",
+  "i": 3,
+  "u": "https://www.cnbc.com/2023/09/12/arm-ipo-ai-play-in-focus-after-huge-nvidia-rally-.html",
+  "s": "CNBC",
+  "d": "2023-09-12"
+ },
+ "NVDA|2024-07-18": {
+  "h": "Selloff on China curbs and Taiwan comments",
+  "t": "Nvidia fell over 6% on 17 July after reports of tighter US export controls and Trump's comments on defending Taiwan. Its rise to new highs then continued more slowly, still carried by AI-chip demand.",
+  "c": "medium",
+  "i": 3,
+  "u": "https://fortune.com/2024/07/17/nvidia-stock-chip-biden-trump/",
+  "s": "Fortune",
+  "d": "2024-07-17"
+ },
+ "UBER|2022-05-06": {
+  "h": "Lyft's gloomy forecast drags Uber to a low",
+  "t": "Uber fell to about $24 in May 2022 despite doubling its revenue, as Lyft's weak outlook hit ride-hailing stocks. It recovered as Uber cut costs and moved towards profitability.",
+  "c": "high",
+  "i": 4,
+  "u": "https://www.wsj.com/articles/uber-revenue-more-than-doubles-as-people-ride-more-and-keep-ordering-in-11651662180",
+  "s": "The Wall Street Journal",
+  "d": "2022-05-04"
+ },
+ "UBER|2023-12-02": {
+  "h": "Uber joins the S&P 500 index",
+  "t": "Uber neared a record high in December 2023 when it was named to the S&P 500. Its first full-year operating profit, reported soon after, helped the average roughly double.",
+  "c": "high",
+  "i": 4,
+  "u": "https://www.cnbc.com/2023/12/04/uber-shares-pop-as-company-is-slated-to-join-sp-500.html",
+  "s": "CNBC",
+  "d": "2023-12-04"
+ },
+ "UBER|2025-05-13": {
+  "h": "Uber steps up to a higher level",
+  "t": "Uber rose from about $76 to $92 in the two months before May 2025. The articles describe a dip after a first-quarter revenue miss, but nothing explains the climb.",
+  "c": "low",
+  "i": 2,
+  "u": "https://www.reuters.com/business/autos-transportation/uber-forecasts-upbeat-second-quarter-steady-ride-hailing-delivery-demand-2025-05-07/",
+  "s": "Reuters",
+  "d": "2025-05-07"
+ },
+ "MSFT|2023-01-25": {
+  "h": "Weak results mark low before AI-fuelled rally",
+  "t": "Microsoft bottomed near $248 after reporting its slowest growth in six years, days after announcing a multibillion-dollar OpenAI investment. Enthusiasm over AI and ChatGPT then carried shares about a third higher.",
+  "c": "medium",
+  "i": 5,
+  "u": "https://www.nytimes.com/2023/01/24/technology/microsoft-profit-drop.html",
+  "s": "The New York Times",
+  "d": "2023-01-24"
+ },
+ "MSFT|2024-07-30": {
+  "h": "Azure miss and AI spending pause the climb",
+  "t": "Shares fell after cloud growth missed forecasts despite record quarterly sales of $64.7 billion. They then traded sideways for months before strong AI-driven cloud demand lifted them to new highs in 2025.",
+  "c": "medium",
+  "i": 3,
+  "u": "https://www.nytimes.com/2024/07/30/technology/microsoft-earnings-profit.html",
+  "s": "The New York Times",
+  "d": "2024-07-30"
+ },
+ "MSFT|2026-02-01": {
+  "h": "Cloud slowdown triggers biggest drop since 2020",
+  "t": "Microsoft plunged 12% in a day as slowing Azure growth and heavier AI spending outweighed an earnings beat. Shares slid further before recovering, leaving the later average slightly lower.",
+  "c": "high",
+  "i": 4,
+  "u": "https://www.businessinsider.com/microsoft-stock-down-q4-earnings-ai-spending-azure-cloud-tech-2026-1",
+  "s": "Business Insider",
+  "d": "2026-01-29"
+ },
+ "BTC-USD|2023-01-14": {
+  "h": "Bitcoin rebounds from post-FTX low on cooling inflation",
+  "t": "Bitcoin climbed 35.8% from its January low of $16,496 as softer US inflation data eased fears of steep Fed rate rises. The recovery continued through 2023, lifting prices toward $30,000.",
+  "c": "medium",
+  "i": 3,
+  "u": "https://www.coindesk.com/markets/2023/01/20/bitcoin-soars-over-22k-to-reach-four-month-high/",
+  "s": "CoinDesk",
+  "d": "2023-01-20"
+ },
+ "BTC-USD|2024-02-09": {
+  "h": "Spot bitcoin ETFs push price past $50,000",
+  "t": "Weeks after US regulators approved spot bitcoin ETFs, bitcoin broke $50,000 for the first time since 2021. ETF inflows, April's halving and the post-election rally later carried it above $100,000.",
+  "c": "medium",
+  "i": 5,
+  "u": "https://www.marketwatch.com/articles/bitcoin-ethereum-price-crypto-markets-today-46e8a961",
+  "s": "MarketWatch",
+  "d": "2024-02-15"
+ },
+ "BTC-USD|2025-11-13": {
+  "h": "ETF outflows and leverage unwind sink bitcoin",
+  "t": "After peaking near $126,000 in October, bitcoin fell below $90,000 as investors pulled a record $523 million from BlackRock's bitcoin ETF in a day. Leveraged traders were forced out, and prices kept sliding.",
+  "c": "medium",
+  "i": 4,
+  "u": "https://www.reuters.com/markets/wealth/investors-pull-record-523-million-blackrocks-flagship-bitcoin-etf-2025-11-19/",
+  "s": "Reuters",
+  "d": "2025-11-19"
+ },
+ "NFLX|2022-04-25": {
+  "h": "First subscriber loss in a decade sinks Netflix",
+  "t": "Netflix shares fell 35% in one day after it reported losing 200,000 subscribers and forecast losing two million more. This was the low point, and the stock stayed far below its earlier level for months.",
+  "c": "high",
+  "i": 5,
+  "u": "https://www.latimes.com/entertainment-arts/business/story/2022-04-20/lat-et-ct-netflix-stock-plunges",
+  "s": "Los Angeles Times",
+  "d": "2022-04-20"
+ },
+ "NFLX|2023-02-17": {
+  "h": "Password-sharing crackdown starts Netflix's long climb",
+  "t": "The shares had recovered from their 2022 low by this point, and here the rise steepened. Over the following two years they gained 145% on average, helped by the password-sharing crackdown and the cheaper ad-supported plan.",
+  "c": "medium",
+  "i": 3,
+  "u": "https://finance.yahoo.com/m/045766c7-f3e0-3f4b-b6e8-9ead981ee8aa/netflix-drops-prices-in-over.html?.tsrc=rss&guccounter=1&guce_referrer=aHR0cDovL2ZpbmFuY2UueWFob28uY29tL3Jzcy9oZWFkbGluZT9zPURJUw&guce_referrer_sig=AQAAALl90_AYntpKADO5uymM9s9OdaReYeqvGxPWlVXF_lHlMBgkvume7EIKk7wY8RC4Z1SadU0Ivc5cXno6_CGp7bZJRyQWWu7JlUVPdWdRz83GEovlxY_FPnCPlLDkWKQcEf09fXH_tfMKmiPnxNEW3JJgiRVBo7t4NyIaZ9HR9yjM",
+  "s": "Yahoo! Finance",
+  "d": "2023-02-23"
+ },
+ "NFLX|2025-05-13": {
+  "h": "Record winning streak lifts Netflix to new highs",
+  "t": "Strong first-quarter results and an 11-day winning streak, the longest in its history, carried the shares about 25% higher for the year. The stock levelled off near these highs afterwards.",
+  "c": "medium",
+  "i": 2,
+  "u": "https://finance.yahoo.com/video/netflixs-record-streak-instacart-surges-182458787.html",
+  "s": "Yahoo! Finance",
+  "d": "2025-05-02"
+ },
+ "EURUSD=X|2022-11-06": {
+  "h": "Euro rebounds from below parity as dollar retreats",
+  "t": "After slipping below one dollar following the ECB's October rate rise, the euro turned higher. Continued ECB hikes and expectations of slower Fed tightening lifted it to about 1.09 within six months.",
+  "c": "medium",
+  "i": 4,
+  "u": "https://finance.yahoo.com/news/euro-slides-ecb-raises-rates-131451336.html",
+  "s": "Yahoo! Finance",
+  "d": "2022-10-27"
+ },
+ "EURUSD=X|2024-11-10": {
+  "h": "Trump election and German turmoil knock the euro",
+  "t": "The euro fell from 1.12 to 1.05 as Trump's victory raised tariff fears and Germany's coalition collapsed. It bottomed near 1.03 before recovering to 1.12 by mid-2025.",
+  "c": "high",
+  "i": 3,
+  "u": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-futures-dip-from-record-as-treasury-yields-rise/card/german-stocks-and-euro-fall-as-investor-confidence-slides-after-coalition-collapse-uDKxq5AopAmEcwzuEv0G",
+  "s": "MarketWatch",
+  "d": "2024-11-12"
+ },
+ "EURUSD=X|2025-06-28": {
+  "h": "Tariff uncertainty lifts euro to near four-year high",
+  "t": "The euro gained almost 13% against the dollar in the first half of 2025 as US tariff uncertainty weighed on the dollar. It peaked near 1.18, then held around 1.17.",
+  "c": "medium",
+  "i": 4,
+  "u": "https://finance.yahoo.com/m/c0826636-0839-33b3-b07e-666424b88b22/euro-rises-to-nearly-4-year.html",
+  "s": "Yahoo! Finance",
+  "d": "2025-07-01"
+ },
+ "BA|2022-11-06": {
+  "h": "Boeing climbs despite a $3.3bn quarterly loss",
+  "t": "Boeing kept rising from its mid-2022 low even after a $3.3bn third-quarter loss and cut delivery targets. Its 5% jump on 10 November came during a broad market rally, so no company-specific cause explains the turning point.",
+  "c": "low",
+  "i": 2,
+  "u": "https://www.forbes.com/sites/qai/2022/11/11/boeing-earnings-breakdown-is-boeing-stock-grounded-or-just-delayed/",
+  "s": "Forbes",
+  "d": "2022-11-11"
+ },
+ "BA|2024-02-20": {
+  "h": "Alaska Airlines door blowout sinks Boeing shares",
+  "t": "Boeing fell about 15% in early 2024 after a 737 Max 9 door panel blew out mid-flight in January. Regulators then capped production, and a machinists' strike later that year kept the shares lower.",
+  "c": "medium",
+  "i": 5,
+  "u": "https://www.forbes.com/sites/greatspeculations/2024/02/09/having-lost-15-so-far-this-year-is-boeing-stock-undervalued-at-210/",
+  "s": "Forbes",
+  "d": "2024-02-09"
+ },
+ "BA|2025-05-02": {
+  "h": "Narrower loss and $545bn backlog lift Boeing",
+  "t": "Boeing recovered after its first-quarter loss shrank to $31m, its backlog reached $545bn and analysts at Bernstein upgraded the stock. Easing tariff fears and steadier 737 production under new chief executive Kelly Ortberg helped carry it higher.",
+  "c": "medium",
+  "i": 3,
+  "u": "https://www.marketwatch.com/story/boeing-narrows-1q-loss-as-backlog-grows-shares-rise-update-e81599c1",
+  "s": "MarketWatch",
+  "d": "2025-04-23"
+ },
+ "TSLA|2022-12-10": {
+  "h": "Musk's share sales and Twitter focus sink Tesla",
+  "t": "Tesla slid to about $150, 61% below its peak, as Musk sold $3.6 billion of shares to help fund Twitter and China demand weakened. It then rebounded through 2023, below 2022's higher average.",
+  "c": "high",
+  "i": 4,
+  "u": "https://finance.yahoo.com/news/tesla-stock-slammed-this-week-as-musk-sells-more-shares-154431221.html",
+  "s": "Yahoo! Finance",
+  "d": "2022-12-15"
+ },
+ "TSLA|2024-01-17": {
+  "h": "China price cuts and slowing EV demand weigh",
+  "t": "Tesla kept falling after cutting Chinese prices by up to 6% amid an EV slowdown, dropping to about $164 by spring before recovering to roughly $239 by mid-2024.",
+  "c": "medium",
+  "i": 2,
+  "u": "https://www.marketwatch.com/articles/tesla-stock-china-price-cut-f8cd068c",
+  "s": "MarketWatch",
+  "d": "2024-01-12"
+ },
+ "TSLA|2024-11-10": {
+  "h": "Trump's election victory launches a Tesla rally",
+  "t": "Tesla soared about 39% in four trading days after Musk-backed Donald Trump won the presidency. Investors bet on policy favouring Tesla, nearly doubling the stock's average afterwards.",
+  "c": "high",
+  "i": 5,
+  "u": "https://www.cnbc.com/2024/11/11/elon-musk-is-70-billion-richer-since-trump-victory-due-to-tesla-surge.html",
+  "s": "CNBC",
+  "d": "2024-11-11"
+ },
+ "DIS|2022-04-25": {
+  "h": "Netflix subscriber loss drags Disney into slump",
+  "t": "Disney slid about 5% after Netflix reported its first subscriber loss in a decade, deepening a fall from $141 to $112. Doubts over costly streaming kept shares near $96 into 2024.",
+  "c": "medium",
+  "i": 4,
+  "u": "https://finance.yahoo.com/m/1bbb282b-8875-36db-9901-6ed01839bd81/disney-shares-are-stuck-in.html?.tsrc=rss&guccounter=1&guce_referrer=aHR0cDovL2ZpbmFuY2UueWFob28uY29tL3Jzcy9oZWFkbGluZT9zPURJUw&guce_referrer_sig=AQAAALl90_AYntpKADO5uymM9s9OdaReYeqvGxPWlVXF_lHlMBgkvume7EIKk7wY8RC4Z1SadU0Ivc5cXno6_CGp7bZJRyQWWu7JlUVPdWdRz83GEovlxY_FPnCPlLDkWKQcEf09fXH_tfMKmiPnxNEW3JJgiRVBo7t4NyIaZ9HR9yjM",
+  "s": "Yahoo! Finance",
+  "d": "2022-04-28"
+ },
+ "DIS|2024-02-09": {
+  "h": "Earnings beat and Epic Games stake lift Disney",
+  "t": "Shares jumped from about $91 to $112 after Disney beat estimates, cut streaming losses, announced a $3 billion buyback and took a $1.5 billion stake in Epic Games. The gains faded by summer.",
+  "c": "high",
+  "i": 4,
+  "u": "https://www.forbes.com/sites/antoniopequenoiv/2024/02/07/disney-shares-jump-8-after-company-raises-guidance-and-reports-cost-cutting-progress/",
+  "s": "Forbes",
+  "d": "2024-02-07"
+ },
+ "DIS|2024-11-10": {
+  "h": "Streaming profits and rare guidance spark Disney rally",
+  "t": "Shares rallied over 9% as Disney reported a second straight profitable streaming quarter and forecast double-digit earnings growth through 2027. The stock held around $108 afterwards, above its previous level.",
+  "c": "high",
+  "i": 3,
+  "u": "https://www.theguardian.com/business/2024/nov/14/disney-earnings-fourth-quarter",
+  "s": "The Guardian",
+  "d": "2024-11-14"
+ },
+ "ETH-USD|2022-06-09": {
+  "h": "Celsius freeze deepens crypto crash into winter",
+  "t": "Ether fell under $1,200 as lender Celsius froze withdrawals and inflation fears hit markets. Prices stayed low through the crypto winter, including the FTX collapse that November.",
+  "c": "high",
+  "i": 5,
+  "u": "https://www.ft.com/content/0d503e3c-d624-4331-8c7f-4c7c42239472",
+  "s": "Financial Times News",
+  "d": "2022-06-13"
+ },
+ "ETH-USD|2024-02-20": {
+  "h": "ETF hopes lift ether past $3,000",
+  "t": "Ether crossed $3,000 for the first time since April 2022, on bets that US spot ether funds would follow bitcoin's. The Dencun upgrade and May's ETF approval held it higher.",
+  "c": "high",
+  "i": 4,
+  "u": "https://www.cnbc.com/video/2024/02/20/ether-briefly-crosses-3000-for-the-first-time-since-april-2022-cnbc-crypto-world.html",
+  "s": "CNBC",
+  "d": "2024-02-20"
+ },
+ "ETH-USD|2025-07-10": {
+  "h": "Corporate ether buying and crypto bills spark rally",
+  "t": "Firms like SharpLink began stockpiling ether, buying 74,656 coins in one week, as Congress debated stablecoin bills. Ether jumped to about $4,300 within two months, then slipped back.",
+  "c": "medium",
+  "i": 3,
+  "u": "https://finance.yahoo.com/news/sharplink-gaming-overtakes-ethereum-foundation-153118138.html?guccounter=1&guce_referrer=aHR0cHM6Ly9maW5hbmNlLnlhaG9vLmNvbS9yc3MvdG9wc3Rvcmllcw&guce_referrer_sig=AQAAAGsC3Q9X13t3zXUVIz1-1ibtK_A7ms8TaIYIL52-a677OrOdguH0UauZkihRDz5BFrYKJxdAYkmGI4pblR2Rr2IK5h7B2VxzXCmdFSJNnbkzYFuNHKj62dwCZDw8o7Zl8xFkFS8UZQDQoFG0W099H4fDBAfZvBWCFCjj11baD3Ve",
+  "s": "Yahoo! Finance",
+  "d": "2025-07-16"
+ },
+ "JPY=X|2022-11-29": {
+  "h": "Yen rebounds from 32-year low on Fed hopes",
+  "t": "The dollar was retreating from about ¥152 as Fed chair Powell signalled smaller rate hikes. It later climbed back as the Bank of Japan kept rates near zero while US rates stayed high.",
+  "c": "medium",
+  "i": 3,
+  "u": "https://www.ft.com/content/f818a722-7cde-44ec-9836-10c82a049096",
+  "s": "Financial Times News",
+  "d": "2022-11-16"
+ },
+ "JPY=X|2024-07-30": {
+  "h": "Bank of Japan hike sparks carry-trade unwind",
+  "t": "The Bank of Japan's surprise hike to 0.25% sent the dollar towards ¥143 and triggered the Nikkei's worst rout since 1987. The dollar later recovered as US rates stayed relatively high.",
+  "c": "high",
+  "i": 5,
+  "u": "https://www.wsj.com/economy/central-banking/bank-of-japan-hikes-rates-tapers-bond-buying-in-fresh-step-to-policy-normalization-bc8c33fb",
+  "s": "The Wall Street Journal",
+  "d": "2024-07-31"
+ },
+ "JPY=X|2025-02-22": {
+  "h": "Yen strengthens on Bank of Japan hike bets",
+  "t": "The yen hit a four-month high near ¥148.6 per dollar on bets of further Bank of Japan rate hikes and global risk-off demand, gaining over 3.6% in February.",
+  "c": "medium",
+  "i": 2,
+  "u": "https://www.bloomberg.com/news/articles/2025-02-25/yen-hits-four-month-high-on-haven-demand-bets-on-rate-hike",
+  "s": "Bloomberg Business",
+  "d": "2025-02-25"
+ },
+ "^TNX|2022-03-21": {
+  "h": "Yields break 2.5% as Fed tightening begins",
+  "t": "The 10-year yield topped 2.5% for the first time since 2019, days after the Fed's first hike, and kept climbing as the Fed raised rates aggressively to fight inflation.",
+  "c": "high",
+  "i": 5,
+  "u": "https://www.reuters.com/article/usa-bonds-idUSL2N2VS1N1",
+  "s": "Reuters",
+  "d": "2022-03-25"
+ },
+ "^TNX|2023-12-02": {
+  "h": "Yields slide from October peak on cut bets",
+  "t": "After peaking near 5% in October, the yield fell to about 4.2% as cooling jobs data fuelled bets on Fed cuts. Rates then settled higher than the 2022–23 average as cuts came slowly.",
+  "c": "medium",
+  "i": 3,
+  "u": "https://www.bloomberg.com/news/articles/2023-12-05/treasury-yields-resume-slide-on-latest-sign-labor-market-cooling",
+  "s": "Bloomberg Business",
+  "d": "2023-12-05"
+ },
+ "^TNX|2025-09-05": {
+  "h": "Weak jobs data pulls yields to April lows",
+  "t": "The 10-year yield fell to about 4.05%, its lowest since April's tariff turmoil, on growth worries and expected Fed cuts. It drifted back up afterwards, ending only slightly above its prior average.",
+  "c": "medium",
+  "i": 2,
+  "u": "https://www.marketwatch.com/story/why-the-10-year-treasury-yield-is-falling-toward-its-lowest-levels-of-the-year-9863119e",
+  "s": "MarketWatch",
+  "d": "2025-09-08"
+ },
+ "XOM|2022-06-09": {
+  "h": "Oil price surge lifts Exxon to record",
+  "t": "Exxon closed at a record $104.59 on 9 June 2022, up 71% that year as Russia's invasion of Ukraine pushed crude higher. The shares then eased over the summer as oil prices cooled.",
+  "c": "high",
+  "i": 4,
+  "u": "https://www.wsj.com/articles/exxons-stock-poised-for-first-record-high-in-eight-years-11654707255",
+  "s": "The Wall Street Journal",
+  "d": "2022-06-09"
+ },
+ "XOM|2022-10-14": {
+  "h": "OPEC+ output cut revives oil rally",
+  "t": "Oil jumped in early October 2022 when OPEC+ agreed to cut output by two million barrels a day. Exxon's record 2022 profits then carried the shares to a higher plateau for years.",
+  "c": "medium",
+  "i": 3,
+  "u": "https://finance.yahoo.com/m/4ccae746-d717-318a-ae22-69e56822c02c/stock-market-gains-despite.html?.tsrc=rss",
+  "s": "Yahoo! Finance",
+  "d": "2022-10-03"
+ },
+ "XOM|2026-01-09": {
+  "h": "Venezuela upheaval precedes Exxon's new record high",
+  "t": "Exxon hit its first record close since October 2024 after the US captured Venezuela's President Maduro, even as Trump threatened to keep it out of the country. The shares climbed further in the following months.",
+  "c": "medium",
+  "i": 4,
+  "u": "https://www.marketwatch.com/story/exxon-mobils-stock-hits-a-new-high-its-ceos-call-on-venezuela-may-be-helping-5a8d9810",
+  "s": "MarketWatch",
+  "d": "2026-01-13"
+ },
+ "CL=F|2022-06-21": {
+  "h": "Oil peaks as recession fears overtake war supply",
+  "t": "Oil topped out near $108 after Brent slid from over $120 in late May on Fed rate hikes and recession fears. It then drifted lower as demand worries outweighed lost Russian supply.",
+  "c": "medium",
+  "i": 4,
+  "u": "https://www.cnbc.com/2022/06/24/dan-yergin-on-oil-prices-falling-despite-tight-supply-russia-tensions.html",
+  "s": "CNBC",
+  "d": "2022-06-24"
+ },
+ "CL=F|2023-07-17": {
+  "h": "Saudi cuts lift oil briefly before longer slide",
+  "t": "Saudi-led output cuts pushed Brent above $80 for the first time since April, starting a rally to about $91. Prices later eased for years as non-OPEC supply grew.",
+  "c": "medium",
+  "i": 2,
+  "u": "https://www.nytimes.com/2023/07/13/business/oil-prices-projected-higher-on-supply-cuts-by-saudi-arabia-and-russia.html",
+  "s": "The New York Times",
+  "d": "2023-07-13"
+ },
+ "CL=F|2026-03-08": {
+  "h": "Iran war closes Hormuz, oil spikes",
+  "t": "The US-Israeli war on Iran choked the Strait of Hormuz, sending Brent to $103.14, its highest close since August 2022. Prices stayed near $100 as the strait remained closed.",
+  "c": "high",
+  "i": 5,
+  "u": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-03-13-2026/card/oil-prices-rise-for-fourth-straight-weekly-gain-T1xjFxKtbfvuCMWwMHo5",
+  "s": "The Wall Street Journal",
+  "d": "2026-03-13"
+ },
+ "PFE|2022-11-17": {
+  "h": "Pfizer peaks as Covid windfall begins to fade",
+  "t": "Pfizer held near $48 in late 2022, well below its $61.71 high, then slid to about $37 by mid-2023 as demand for its Covid vaccine and Paxlovid collapsed.",
+  "c": "medium",
+  "i": 4,
+  "u": "https://www.marketwatch.com/story/pfizer-inc-stock-falls-wednesday-underperforms-market-01669241802",
+  "s": "MarketWatch",
+  "d": "2022-11-23"
+ },
+ "PFE|2024-04-29": {
+  "h": "Earnings beat lifts Pfizer off decade low",
+  "t": "Pfizer jumped 7% from a decade low on a first-quarter beat despite Covid product sales falling 66% to $2.4 billion. The stock then stayed around $28, below its earlier level.",
+  "c": "high",
+  "i": 3,
+  "u": "https://www.forbes.com/sites/dereksaul/2024/05/01/pfizers-44-decline-in-profits-still-tops-estimates-stock-bounces-from-decade-low/",
+  "s": "Forbes",
+  "d": "2024-05-01"
+ },
+ "PFE|2025-03-28": {
+  "h": "Pfizer hits a low near $23",
+  "t": "Pfizer fell from about $29 to $23 by late March 2025, then recovered to roughly $27 over the following six months. The articles found do not explain the turning point.",
+  "c": "low",
+  "i": 2
+ },
+ "NG=F|2022-09-09": {
+  "h": "US gas peaks as Europe's crisis fears ease",
+  "t": "After Russian supply cuts pushed US gas above $8 in summer, prices turned lower as Europe filled storage. Goldman said Europe had \"solved\" its winter crisis, and US prices slid toward $2.34.",
+  "c": "medium",
+  "i": 4,
+  "u": "https://www.barrons.com/articles/natural-gas-prices-europe-goldman-51663090649",
+  "s": "Barrons",
+  "d": "2022-09-15"
+ },
+ "NG=F|2023-01-14": {
+  "h": "Warm winter sinks natural gas prices",
+  "t": "A mild northern winter saw the US inject gas into storage in January for the first time on record. Prices collapsed, and record US output kept the average 58% lower for nearly two years.",
+  "c": "high",
+  "i": 5,
+  "u": "https://www.ft.com/content/8a5c1860-1d77-43ae-b1e5-148f72367f7d",
+  "s": "Financial Times News",
+  "d": "2023-01-15"
+ },
+ "NG=F|2024-11-22": {
+  "h": "Cold weather forecasts spark gas rally",
+  "t": "Natural gas rallied 18% in a week to a one-year high on colder US forecasts and possible European supply disruptions. Rising LNG exports helped hold the average 37% higher afterwards.",
+  "c": "high",
+  "i": 3,
+  "u": "https://www.marketwatch.com/story/why-natural-gas-prices-have-rallied-18-this-week-to-a-one-year-high-5377fd52",
+  "s": "MarketWatch",
+  "d": "2024-11-21"
+ },
+ "^VIX|2022-11-06": {
+  "h": "Fear gauge eases as inflation peak passes",
+  "t": "After 2022's bear market, the VIX averaged 25.4. A cooler-than-expected October inflation report and slower Fed rate hikes helped calm markets, and the index then averaged just 16.2 through mid-2024.",
+  "c": "medium",
+  "i": 4,
+  "u": "https://www.forbes.com/sites/forbesfinancecouncil/2022/11/07/midterms-and-the-markets-considerations-for-investors-amid-heightened-volatility/",
+  "s": "Forbes",
+  "d": "2022-11-07"
+ },
+ "^VIX|2024-07-18": {
+  "h": "Chip curb fears end record market calm",
+  "t": "After touching about 12, the VIX jumped as tech stocks fell on reports of tighter US chip export curbs. The August yen-carry selloff and the April 2025 tariff turmoil followed, lifting the average to 19.4.",
+  "c": "high",
+  "i": 4,
+  "u": "https://www.reuters.com/markets/asia/global-markets-view-asia-graphic-pix-2024-07-17/",
+  "s": "Reuters",
+  "d": "2024-07-18"
+ },
+ "^VIX|2025-05-13": {
+  "h": "US-China tariff truce crushes volatility",
+  "t": "The VIX fell back toward its February level after the US and China agreed on 12 May to cut tariffs from 145% to 30%. Calmer markets followed, with the average falling to 17.9.",
+  "c": "medium",
+  "i": 3,
+  "u": "https://www.cnbc.com/2025/05/16/bulls-crushed-the-volatility-and-rallied-the-market-back-carter-worth-on-what-happens-next.html",
+  "s": "CNBC",
+  "d": "2025-05-16"
+ }
+}

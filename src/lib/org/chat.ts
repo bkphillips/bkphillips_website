@@ -20,7 +20,7 @@ export class ChatError extends Error {
 
 function systemPrompt(model: OrgModel, scope: number): string {
   const leader = model.people[scope];
-  return `You are the assistant inside Org Health Explorer, an analytics tool for leaders and HR partners. It runs on ${model.company}, a fictional company whose data is entirely synthetic.
+  return `You are the assistant inside Kestrel Org Explorer, an analytics tool for leaders and HR partners. It runs on ${model.company}, a fictional company whose data is entirely synthetic.
 
 The person you are helping is viewing the organization "${model.orgName(scope)}" led by ${leader.name} (${leader.title}), leader_id ${scope}, ${model.orgSize(scope).toLocaleString("en-US")} people. Data covers ${monthLabel(model.months[0])} to ${monthLabel(model.months[model.last])}, monthly.
 
@@ -41,11 +41,18 @@ export async function answer(
   history: ChatTurn[],
 ): Promise<string> {
   const apiKey = process.env.ANTHROPIC_API_KEY;
-  if (!apiKey) throw new ChatError("The assistant is not set up.", 503, "not_configured");
+  if (!apiKey)
+    throw new ChatError("The assistant is not set up.", 503, "not_configured");
   // Fixed base URL: see lib/inflection/explain.ts.
-  const client = new Anthropic({ apiKey, baseURL: "https://api.anthropic.com" });
+  const client = new Anthropic({
+    apiKey,
+    baseURL: "https://api.anthropic.com",
+  });
 
-  const tools: Anthropic.Beta.BetaTool[] = TOOL_SPECS.map((t) => ({ ...t, strict: true }));
+  const tools: Anthropic.Beta.BetaTool[] = TOOL_SPECS.map((t) => ({
+    ...t,
+    strict: true,
+  }));
   const messages: Anthropic.Beta.BetaMessageParam[] = history.map((t) => ({
     role: t.role,
     content: t.content,
@@ -67,7 +74,11 @@ export async function answer(
       });
 
       if (response.stop_reason === "refusal") {
-        throw new ChatError("The assistant declined to answer that.", 422, "refused");
+        throw new ChatError(
+          "The assistant declined to answer that.",
+          422,
+          "refused",
+        );
       }
       messages.push({ role: "assistant", content: response.content });
       if (response.stop_reason === "pause_turn") continue;
@@ -81,39 +92,60 @@ export async function answer(
           .map((b) => b.text)
           .join("")
           .trim();
-        if (!text) throw new ChatError("No answer came back. Try again.", 502, "empty");
+        if (!text)
+          throw new ChatError("No answer came back. Try again.", 502, "empty");
         return text;
       }
 
       // Run every requested tool and return all results in one message.
-      const results: Anthropic.Beta.BetaToolResultBlockParam[] = calls.map((call) => {
-        let output: unknown;
-        try {
-          output = runTool(model, scope, call.name, (call.input ?? {}) as Record<string, unknown>);
-        } catch {
-          output = { error: "The tool failed on that input." };
-        }
-        const failed = typeof output === "object" && output !== null && "error" in output;
-        return {
-          type: "tool_result",
-          tool_use_id: call.id,
-          content: JSON.stringify(output),
-          ...(failed ? { is_error: true } : {}),
-        };
-      });
+      const results: Anthropic.Beta.BetaToolResultBlockParam[] = calls.map(
+        (call) => {
+          let output: unknown;
+          try {
+            output = runTool(
+              model,
+              scope,
+              call.name,
+              (call.input ?? {}) as Record<string, unknown>,
+            );
+          } catch {
+            output = { error: "The tool failed on that input." };
+          }
+          const failed =
+            typeof output === "object" && output !== null && "error" in output;
+          return {
+            type: "tool_result",
+            tool_use_id: call.id,
+            content: JSON.stringify(output),
+            ...(failed ? { is_error: true } : {}),
+          };
+        },
+      );
       messages.push({ role: "user", content: results });
     }
-    throw new ChatError("That question took too many steps. Try a narrower one.", 502, "too_long");
+    throw new ChatError(
+      "That question took too many steps. Try a narrower one.",
+      502,
+      "too_long",
+    );
   } catch (err) {
     if (err instanceof ChatError) throw err;
     if (
       err instanceof Anthropic.AuthenticationError ||
       err instanceof Anthropic.PermissionDeniedError
     ) {
-      throw new ChatError("The assistant is not set up.", 503, "not_configured");
+      throw new ChatError(
+        "The assistant is not set up.",
+        503,
+        "not_configured",
+      );
     }
     if (err instanceof Anthropic.RateLimitError) {
-      throw new ChatError("The assistant is busy. Try again shortly.", 429, "busy");
+      throw new ChatError(
+        "The assistant is busy. Try again shortly.",
+        429,
+        "busy",
+      );
     }
     throw new ChatError("The assistant could not be reached.", 502, "upstream");
   }

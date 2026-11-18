@@ -41,13 +41,56 @@ export type ShiftEvent = {
   rateBefore?: number;
   rateAfter?: number;
   log: boolean;
+  /** Average of the series over the stretch before and the stretch after. */
+  avgBefore?: number;
+  avgAfter?: number;
+  /** The stretch before the shift: when it began, and the fitted value at its start and end. */
+  prior?: Stretch;
+  /** The stretch after the shift, up to the next shift or the end of the data. */
+  next?: Stretch;
 };
+
+export type Stretch = { from: string; to: string; start: number; end: number };
+
+export type Confidence = "high" | "medium" | "low";
 
 export type Explanation = {
   date: string;
   headline: string;
+  /** How firmly the reporting ties the cause to the move. Set when a model wrote the summary. */
+  confidence?: Confidence;
+  /** Empty when only the news search is set up and no summary was written. */
   summary: string;
-  sources: { title: string; url: string }[];
+  /**
+   * Articles behind the explanation. `source` and `date` come from the news
+   * search; `also` is how many other articles it found about the same event.
+   */
+  sources: {
+    title: string;
+    url: string;
+    source?: string;
+    date?: string;
+    also?: number;
+  }[];
+  /** How many articles the news search found around the shift. */
+  found?: number;
+};
+
+/** Explanations prepared ahead of time for the example series at their default settings. */
+export type SavedExplanations = {
+  /** The day the news was searched and the summaries written. */
+  asOf: string;
+  series: Record<
+    string,
+    {
+      years: number;
+      model: Model;
+      log: boolean;
+      shifts: number;
+      overview: string | null;
+      explanations: Explanation[];
+    }
+  >;
 };
 
 export type ExplainResponse = {

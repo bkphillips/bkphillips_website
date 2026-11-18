@@ -15,22 +15,8 @@
   --alert: #b3261e;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    color-scheme: dark;
-    --paper: #121210;
-    --surface: #1a1917;
-    --ink: #ece8de;
-    --muted: #a39e92;
-    --faint: #6f6b62;
-    --line: #2e2c27;
-    --accent: #86c9b7;
-    --accent-soft: #1c2925;
-    --signal: #e8935f;
-    --alert: #f26b5e;
-  }
-}
-
+/* Light is the default for every visitor. Dark applies only when chosen with
+   the toggle in the header, which sets data-theme on the root element. */
 :root[data-theme="dark"] {
   color-scheme: dark;
   --paper: #121210;
@@ -126,10 +112,6 @@ body {
 .icon-moon { display: none; }
 :root[data-theme="dark"] .icon-moon { display: block; }
 :root[data-theme="dark"] .icon-sun { display: none; }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .icon-moon { display: block; }
-  :root:not([data-theme="light"]) .icon-sun { display: none; }
-}
 
 /* ---------- Motion ---------- */
 @keyframes rise {
@@ -197,4 +179,29 @@ input[type="range"].slider::-moz-range-thumb {
   background: var(--ink);
   border: 2px solid var(--surface);
   box-shadow: 0 0 0 1px var(--ink);
+}
+
+/* ---------- Hero backdrop ---------- */
+/* The terrain fills the upper part of the hero and fades out where the text
+   sits: toward the bottom on phones, toward the bottom-left on wide screens.
+   It also fades at the side edges. */
+.terrain-backdrop {
+  -webkit-mask-image:
+    linear-gradient(to top, transparent 0%, black 42%),
+    linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+  mask-image:
+    linear-gradient(to top, transparent 0%, black 42%),
+    linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+  -webkit-mask-composite: source-in;
+  mask-composite: intersect;
+}
+@media (min-width: 1024px) {
+  .terrain-backdrop {
+    -webkit-mask-image:
+      radial-gradient(85% 70% at 0% 100%, transparent 50%, black 100%),
+      linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+    mask-image:
+      radial-gradient(85% 70% at 0% 100%, transparent 50%, black 100%),
+      linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+  }
 }

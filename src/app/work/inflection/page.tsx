@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <ProjectPage slug="inflection">
+    <ProjectPage slug="inflection" compact>
       <InflectionTool />
     </ProjectPage>
   );
